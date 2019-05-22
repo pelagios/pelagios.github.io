@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="breadcrumb">
-  <a href="">Activities</a><span> > </span>
+  <a href="/activities">Activities</a><span> > </span>
 </div>
 <div class="activity">
   {{ content }}
@@ -11,7 +11,7 @@ layout: default
 <hr />
 
 <div class="activity--case-studies">
-  
+
 {% for case-study in site.category[page.category] %}
   <li>
      {{ case-study.title }}
@@ -23,7 +23,7 @@ layout: default
     {% if case-study.category contains 'semantic annotation' %}
    <h2>{{ case-study.title }}</h2>
    {{ case-study.excerpt }}
-   {{ case-study.url }}
+   <a href="{{ case-study.url }}">Read more </a>
     {% endif %}
   {% endfor %}
 {% elsif page.category contains 'gazetteer' %}
@@ -31,11 +31,11 @@ layout: default
     {% if case-study.category contains 'gazetteer' %}
    <h2>{{ case-study.title }}</h2>
    {{ case-study.excerpt }}
-   {{ case-study.url }}
+   <a href="{{ case-study.url }}">Read more </a>
     {% endif %}
   {% endfor %}
 {% endif %}
-  
+
 </div>
 
 <hr />
@@ -44,7 +44,7 @@ layout: default
   <h3>Activity Co-ordinators</h3>
   {% assign coordinator1 = site.data.people[page.activity-coordinator1] %}
   {% assign coordinator2 = site.data.people[page.activity-coordinator2] %}
-  <ul> 
+  <ul>
     <li>
     <img src="{{ coordinator1.img }}" title="Photo of {{ coordinator1.name }}"/>
     {{ coordinator1.name }}, {{ coordinator1.institution }}

@@ -6,13 +6,11 @@ permalink: /case-studies/
 
 
 {% assign sorted_case_studies = site.case-studies | sort:'title' %}
-<ul>
-{% for case-study in sorted_case_studies %}
-  <li>
-    <img src="{{ case-study.main-image }}" class="{{ case-study.category }}">
-  	<h2>{{ case-study.title }}</h2>
-  	<p>{{ case-study.excerpt | strip_html }}</p>
-    <a href={{ case-study.url }}>Read more</a>
- </li>
-{% endfor %}
-</ul>
+<div class="case-studies--home">
+	{% for case-study in site.case-studies %}
+		<div class="case-study--teaser">
+			<img src="{{ case-study.main-image }}" width="400px">
+	  	<h2> <a href={{ case-study.url }}>{{ case-study.title }}</a> </h2>
+		</div>
+  {% endfor %}
+</div>
