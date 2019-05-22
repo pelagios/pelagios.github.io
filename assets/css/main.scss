@@ -1,0 +1,33 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+@import "typography";
+@import "colors";
+@import "cta";
+@import "case-study";
+
+body {
+  width: 90%;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+footer {
+  clear: both;
+  margin-top: 100px;
+  display: inline-block;
+  width: 100%;
+  background: $sea-green-1;
+}
+
+footer ul {
+  margin: 0;
+  li {
+    list-style-image: none;
+    list-style-type: none;
+  }
+}
