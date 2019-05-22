@@ -1,0 +1,31 @@
+---
+version: '3'
+services:
+
+  web:
+    image: nginx:alpine
+    volumes:
+     - ./_site:/usr/share/nginx/html
+    ports:
+     - "80:80"
+    environment:
+     - NGINX_HOST=pelmain.localhost
+     - NGINX_PORT=80
+
+  jekyll:
+    image: ruby:2.5.3
+    working_dir: /src
+    environment:
+      BUNDLE_PATH: /vendor
+    command: >
+      sh -c '
+        bundle &&
+        bundle exec jekyll build --destination /src/_site --watch
+      '
+    volumes:
+      - .:/src
+      - vendor:/vendor
+
+volumes:
+  vendor:
+  _site:

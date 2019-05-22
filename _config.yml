@@ -1,6 +1,6 @@
 name: Pelagios Network
 markdown: kramdown
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
 
 collections_dir: content
 collections:
