@@ -1,0 +1,10 @@
+maria:
+    name: Maria Young
+    email: maria@agile.coop
+    img: https://agile.coop/sites/default/files/styles/user_picture_medium/public/pictures/picture-23-1385050494.jpg
+    institution: Agile Collective
+richard:
+    name: Richard Rowley
+    email: richard@agile.coop
+    img: https://agile.coop/sites/default/files/styles/user_picture_medium/public/pictures/picture-10-1336487434.jpg
+    institution: Linacre College

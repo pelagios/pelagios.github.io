@@ -1,0 +1,8 @@
+.blurb--home {
+    background-image: url(/assets/mainimage.jpg);
+}
+
+body {
+  font-family: Oxygen, sans-serif;
+  font-size: 1.2em;
+}

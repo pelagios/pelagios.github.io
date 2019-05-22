@@ -1,0 +1,12 @@
+name: Pelagios Network
+markdown: kramdown
+theme: jekyll-theme-cayman
+
+collections_dir: content
+collections:
+  activities:
+    output: true
+  case-studies:
+    output: true
+  partners:
+    output: false

@@ -1,0 +1,16 @@
+---
+layout: default
+title: Our Activities
+---
+
+Our Activities
+{% assign sorted_activities = site.activities | sort:'name' %}
+<ul>
+{% for activity in sorted_activities %}
+<li>
+  	<h2>{{ activity.name }}</h2>
+  	<p>{{ activity.excerpt | strip_html }}</p>
+    <a href={{ activity.url }}>Read more</a>
+ </li>
+{% endfor %}
+</ul>

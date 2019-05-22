@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+{{ page.author }}
+
+<div class="case_study">
+  {{ content }}
+</div>
+
+{% if page.category != "" %}
+See also: 
+{{ page.category }}
+{% endif %}

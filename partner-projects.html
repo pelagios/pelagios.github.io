@@ -1,0 +1,18 @@
+---
+layout: default
+title: Partner Projects
+---
+
+Lorem Ipsum, some blurb about the Partners and how important they are. 
+  
+{% assign sorted_partners = site.partners | sort:'title' %}
+<ul>
+{% for partner in sorted_partners %}
+<li>
+    <img src="{{ partner.logo }}"  /> 
+  	<h2>{{ partner.title }}</h2>
+  	<p>{{ partner.content | markdownify }}</p>
+    <a href="{{ partner.partner-url }}">Find out more about {{ partner.title }}</a>
+ </li>
+{% endfor %}
+</ul>

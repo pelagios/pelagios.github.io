@@ -1,0 +1,32 @@
+---
+layout: default
+title: Pelagios Network
+---
+<div class="blurb--home">
+	<h1>Welcome to the Pelagiosphere</h1>
+	<p>Pelagios Commons provides online resources and a community forum for using open data methods to link and explore historical places. Check out our flagship linked-data project, Recogito.  <a href="/about">Read more about Pelagios Network.</a></p>
+</div><!-- /.blurb -->
+<div class="cta--home">
+	<ul>
+		<li><a href="/" >In the classroom</a></li>
+		<li><a href="/" >For Developers</a></li>
+		<li><a href="/" >Join the conversation</a></li>
+	</ul>
+</div>
+<div class="case-studies--home">
+	<h2>Our case studies</h2>
+	{% for case-study in site.case-studies %}
+  	<h2>{{ case-study.title }}</h2>
+  	<p>{{ case-study.content | markdownify }}</p>
+	  <a href={{ case-study.url }}>Read more</a>
+  {% endfor %}
+</div>
+<div class="activities--home">
+	<h2>Our activities</h2>
+	{% assign sorted_activities = site.activities | sort:'name' %}
+ 	{% for activity in sorted_activities %}
+    <h2>{{ activity.name }}</h2>
+	  {{ activity.excerpt | strip_html }}
+	  <a href={{ activity.url }}>Read more</a>
+ 	{% endfor %}
+</div>
