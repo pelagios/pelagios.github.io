@@ -1,0 +1,52 @@
+// This is a partial.
+// It lies in <source>/_sass, just waiting to be imported.
+// It does not contain the YAML front matter and has no corresponding output file in the built site.
+@font-face {
+    font-family: 'hk_groteskregular';
+    src: url('/assets/fonts/hkgrotesk-regular-webfont.woff2') format('woff2'),
+         url('/assets/fonts/hkgrotesk-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'hk_grotesklight';
+    src: url('/assets/fonts/hkgrotesk-light-webfont.woff2') format('woff2'),
+         url('/assets/fonts/hkgrotesk-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hk_grotesksemibold';
+    src: url('/assets/fonts/hkgrotesk-semibold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/hkgrotesk-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hk_groteskmedium';
+    src: url('/assets/fonts/hkgrotesk-medium-webfont.woff2') format('woff2'),
+         url('/assets/fonts/hkgrotesk-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hk_groteskbold';
+    src: url('/assets/fonts/hkgrotesk-bold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/hkgrotesk-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  font-family: 'hk_groteskregular', sans-serif;
+}

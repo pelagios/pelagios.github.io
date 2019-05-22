@@ -1,0 +1,60 @@
+.case-studies--home {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  > h2 {
+    width: 100%;
+  }
+}
+
+.case-study--teaser {
+  max-width: 400px;
+  position: relative;
+  float: left;
+  margin-right: 15px;
+  align-self: flex-end;
+  img {
+    background: pink;
+    display: block;
+    height: inherit;
+    overflow: hidden;
+    width: 100%;
+
+  }
+  h2 {
+    color: white;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    a {
+      padding: 20px;
+      display: block;
+    }
+  }
+  &:nth-of-type(1) {
+    width: 395px;
+    height: 290px;
+    h2 {
+      background: $sea-green-1;
+    }
+  }
+  &:nth-of-type(2) {
+    width: 390px;
+    height: 220px;
+    h2 {
+      background: $sea-green-2;
+    }
+  }
+  &:nth-of-type(3) {
+    h2 {
+      background: $sea-green-3;
+    }
+  }
+}
+
+.activities--teaser {
+  float: left;
+  max-width: 300px;
+  margin: 10px;
+}
