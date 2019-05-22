@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: ZZZZZ Partner Project Z
 partner-url: www.agile.coop
 category: [gazetteer, semantic annotation]

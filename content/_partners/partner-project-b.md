@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: BBBBB Partner Project B
 partner-url: www.agile.coop
 category: gazetteer

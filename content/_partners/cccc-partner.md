@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: CCC Partner Project C
 partner-url: www.agile.coop
 ---
