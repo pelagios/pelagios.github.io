@@ -2,8 +2,8 @@
 layout: case
 title: The Traveler Lab
 author: Dr Jesse Torgerson
-category: [sematic annotation]
-image: https://drive.google.com/file/d/1cpcjov4fZ6PZXr6-VGPawpTso4vnmCIf/view
+category: [semantic annotation]
+image: /assets/Case study 2 Image.jpg
 ---
 
 The Traveler’s Lab, at Wesleyan University, is a collaborative hub of scholars who are investigating the movement of information and the people and networks that carried them around the world before the advent of industrial travel. 
