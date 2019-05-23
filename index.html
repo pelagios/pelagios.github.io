@@ -6,19 +6,19 @@ layout: default
 	<p>Pelagios Commons provides online resources and a community forum for using open data methods to link and explore historical places. Check out our flagship linked-data project, Recogito.  <a href="/about">Read more about Pelagios Network.</a></p>
 </div><!-- /.blurb -->
 <div class="cta--home">
-	<ul>
-		<li><a href="/" >In the classroom</a></li>
-		<li><a href="/" >For Developers</a></li>
-		<li><a href="/" >Join the conversation</a></li>
-	</ul>
+		<a class="cta" href="/" >In the classroom</a>
+		<a class="cta" href="/" >For Developers</a>
+		<a class="cta" href="/" >Join the conversation</a>
 </div>
-<div class="case-studies--home">
+<div class="case-studies--home-wrapper">
+	<div class="case-studies--home">
 	{% for case-study in site.case-studies %}
 		<div class="case-study--teaser">
 			<img src="{{ case-study.image }}" width="400px">
 	  	<h2> <a href={{ case-study.url }}>{{ case-study.title }}</a> </h2>
 		</div>
   {% endfor %}
+	</div>
 </div>
 <div class="activities--home">
 	<h2>The activities of the Pelagios network</h2>
