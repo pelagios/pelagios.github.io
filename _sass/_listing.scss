@@ -1,3 +1,22 @@
-.page--our-activities {
-  
+.activities--page {
+  display: flex;
+  justify-content: space-between;
+  .activity--teaser {
+
+  }
+}
+
+.activities--home {
+  h2 {
+    width: 100%;
+    font-size: 16px;
+  }
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 60px;
+
+}
+.activity--teaser {
+    width: 115px;
 }
