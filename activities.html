@@ -8,6 +8,7 @@ permalink: /activities/
 	{% assign sorted_activities = site.activities | sort:'name' %}
  	{% for activity in sorted_activities %}
 	<div class="activities--teaser">
+		<img src="{{ activity.image }}"/>
     <h2>{{ activity.name }}</h2>
 	  {{ activity.excerpt | strip_html }}
 	  <a href={{ activity.url }}>Read more</a>

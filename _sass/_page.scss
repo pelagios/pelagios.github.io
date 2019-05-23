@@ -1,15 +1,21 @@
 .constrained.container {
-  padding-left: $content-column-width;
   padding-top: 40px;
-  width: $content-column-width-large;
-  .main-image {
-    margin-left:  -$content-column-width;
-    position: absolute;
-    padding-right: 30px;
-    width: 170px;
-    margin-top: 10px;
-    img {
-      width: 100%;
+}
+
+.page--type-case-studies,
+.page--type-case-activities {
+  .constrained.container {
+    padding-left: $content-column-width;
+    width: $content-column-width-large;
+    .main-image {
+      margin-left:  -$content-column-width;
+      position: absolute;
+      padding-right: 30px;
+      width: 170px;
+      margin-top: 10px;
+      img {
+        width: 100%;
+      }
     }
   }
 }

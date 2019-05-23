@@ -25,7 +25,8 @@ layout: default
 	<h2>Our activities</h2>
 	{% assign sorted_activities = site.activities | sort:'name' %}
  	{% for activity in sorted_activities %}
-	<div class="activities--teaser">
+	<div class="activity--teaser">
+		<img src="{{ activity.image }}" width="120px">
     <h2>{{ activity.name }}</h2>
 	  {{ activity.excerpt | strip_html }}
 	  <a href={{ activity.url }}>Read more</a>
