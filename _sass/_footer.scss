@@ -1,0 +1,57 @@
+footer {
+  clear: both;
+  margin-top: 100px;
+  display: inline-block;
+  width: 100%;
+  background: $light-grey;
+  padding: 40px 0;
+  font-size: $font-size-tiny;
+}
+
+footer ul {
+  display: block;
+  padding: 0;
+  float: left;
+  width: 100%;
+  li {
+    list-style-image: none;
+    list-style-type: none;
+    float: left;
+    clear: both;
+    margin-bottom: 10px;
+  }
+  a {
+    display: block;
+    background: $almost-black;
+    box-sizing: border-box;
+    padding: 5px;
+    text-decoration: none;
+    color: $white;
+    &:hover {
+      background: $turquoise;
+    }
+  }
+}
+.footer-2 {
+  a {
+    background: $turquoise;
+    &:hover {
+      background: $almost-black;
+    }
+  }
+  ul:nth-of-type(2) {
+    a {
+      background: none;
+      color: $black;
+      padding: 0;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.footer-block {
+  width: 33%;
+  float: left;
+}
