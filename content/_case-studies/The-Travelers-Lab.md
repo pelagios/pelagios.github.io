@@ -1,6 +1,6 @@
 ---
 layout: case
-title: The Traveler Lab
+title: The Travelers Lab
 author: Dr Jesse Torgerson
 category: [semantic annotation]
 image: /assets/Case study 2 Image.jpg
