@@ -2,7 +2,7 @@
 layout: case
 title: Another case
 author: Dr X
-category: gazetteer
+category: [gazetteer, sematic annotation]
 image: /assets/mainimage.jpg
 ---
 
