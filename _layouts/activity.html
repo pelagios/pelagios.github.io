@@ -5,6 +5,8 @@ layout: default
   <a href="/activities">Activities</a><span> > </span>
 </div>
 <div class="activity">
+  <div class="main-image"><img src="{{ page.image }}"/></div>
+  <h1> {{ page.title }} </h1>
   {{ content }}
 </div>
 
@@ -41,38 +43,46 @@ layout: default
 <hr />
 
 <div class="activity--coordinators">
-  <h3>Activity Co-ordinators</h3>
+  <h2>Activity Co-ordinators</h2>
   {% assign coordinator1 = site.data.people[page.activity-coordinator1] %}
   {% assign coordinator2 = site.data.people[page.activity-coordinator2] %}
-  <ul>
-    <li>
+  <div class="activity--coordinator">
     <img src="{{ coordinator1.img }}" title="Photo of {{ coordinator1.name }}"/>
-    {{ coordinator1.name }}, {{ coordinator1.institution }}
-    </li>
-    <li>
+    <p>{{ coordinator2.name }}, {{ coordinator2.institution }}</p>
+  </div>
+  <div class="activity--coordinator">
     <img src="{{ coordinator2.img }}" title="Photo of {{ coordinator2.name }}"/>
-    {{ coordinator2.name }}, {{ coordinator2.institution }}
-    </li>
-  </ul>
-  <a href="" class="get-in-touch">Get in touch</a>
+    <p>{{ coordinator2.name }}, {{ coordinator2.institution }}</p>
+  </div>
+  <a href="cta small" class="get-in-touch">Get in touch</a>
 </div>
 
 <hr />
 <div class="activity--partners">
-<h3>Partner Projects</h3>
+<h2>Partner Projects</h2>
 
 {% if page.category contains 'semantic annotation' %}
   {% for partner in site.partners %}
     {% if partner.category contains 'semantic annotation' %}
-   <h2>{{ partner.title }}</h2>
-    {{ partner.excerpt }}
+    <div class="partner--related">
+      {{ partner.logo }}
+      <div class="partner--text">
+      <h3>{{ partner.title }}</h3>
+      {{ partner.excerpt }}
+      </div>
+    </div>
     {% endif %}
   {% endfor %}
 {% elsif page.category contains 'gazetteer' %}
   {% for partner in site.partners %}
     {% if partner.category contains 'gazetteer' %}
-   <h2>{{ partner.title }}</h2>
-    {{ partner.excerpt }}
+      <div class="partner--related">
+        <img class="partner--logo" src='{{ partner.logo }}' alt="{{ partner.title }} logo"/>
+        <div class="partner--text">
+        <h3>{{ partner.title }}</h3>
+        {{ partner.excerpt }}
+        </div>
+      </div>
     {% endif %}
   {% endfor %}
 {% endif %}

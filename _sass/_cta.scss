@@ -14,3 +14,17 @@
 
   }
 }
+
+.cta, .get-in-touch {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    text-decoration: none;
+    background: $turquoise;
+    color: $white;
+    font-size: $font-size-tiny;
+    &:hover {
+      background: $almost-black;
+    }
+
+}

@@ -52,6 +52,12 @@ footer ul {
 }
 
 .footer-block {
-  width: 33%;
-  float: left;
+  @media (min-width : 600px) {
+    width:50%;
+    float: left;
+  }
+  @media (min-width : 900px) {
+    width: 33%;
+    float: left;
+  }
 }

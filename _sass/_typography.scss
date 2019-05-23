@@ -10,14 +10,12 @@
 
 }
 
-
 @font-face {
     font-family: 'hk_grotesklight';
     src: url('/assets/fonts/hkgrotesk-light-webfont.woff2') format('woff2'),
          url('/assets/fonts/hkgrotesk-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -26,7 +24,6 @@
          url('/assets/fonts/hkgrotesk-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -35,7 +32,6 @@
          url('/assets/fonts/hkgrotesk-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -44,9 +40,37 @@
          url('/assets/fonts/hkgrotesk-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 body {
   font-family: 'hk_groteskregular', sans-serif;
+}
+
+h1 {
+  font-size: $font-size-x-large;
+}
+h2 {
+  font-size: $font-size-large;
+}
+h3 {
+  font-size: $font-size-medium;
+}
+h4 {
+  font-size: $font-size-normal;
+}
+p {
+  font-size: $font-size-normal;
+}
+a {
+  color: $black;
+  &:hover {
+    color: $turquoise;
+  }
+}
+hr {
+  color: $turquoise;
+  margin: 50px 0;
+}
+.breadcrumb {
+  font-size: $font-size-tiny;
 }

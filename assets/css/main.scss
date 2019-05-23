@@ -2,13 +2,13 @@
 # this ensures Jekyll reads the file to be transformed into CSS later
 # only Main files contain this front matter, not partials.
 ---
-
-@import "typography";
 @import "colors";
+@import "typography";
 @import "cta";
 @import "case-study";
 @import "header";
 @import "footer";
+@import "page";
 
 body {
   margin: 0;
