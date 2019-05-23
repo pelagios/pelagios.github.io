@@ -1,11 +1,13 @@
 .constrained.container {
   padding-left: $content-column-width;
+  padding-top: 40px;
   width: $content-column-width-large;
   .main-image {
     margin-left:  -$content-column-width;
     position: absolute;
     padding-right: 30px;
     width: 170px;
+    margin-top: 10px;
     img {
       width: 100%;
     }
@@ -23,6 +25,7 @@
     background: $light-grey;
     float: left;
     margin-right: 20px;
+
   }
   h3 {
     margin-top: 10px;
@@ -30,6 +33,7 @@
   .partner--text {
     display: block;
     float: left;
+    width: calc(100% - 70px);
   }
   &:last-of-type {
     margin-bottom: 20px;
@@ -40,5 +44,11 @@
   margin-bottom: 30px;
   p {
     font-size: $font-size-small;
+  }
+}
+
+.activity--case-studies {
+  img {
+    float: right;
   }
 }

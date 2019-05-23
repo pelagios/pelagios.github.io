@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 	<html>
 		<head>
+			{% assign pageclass = page.title | downcase | replace: ' ', '-' %}
+			{% assign pageclasstype = page.collection %}
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/assets/css/main.css">
 		</head>
-		<body>
+		<body class="page--{{ pageclass }} page--type-{{ pageclasstype }}" >
 			<header>
 				<div class="constrained">
 				<a href="/"><img src="/assets/logo.png" class="logo" title="Pelagios Logo" alt="Pelagios Logo" width="150px" /></a>
 			</div>
 			</header>
 			<div class="container constrained">
-
-			<h1>{{ page.title }}</h1>
 
 			{{ content }}
 

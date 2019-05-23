@@ -1,6 +1,13 @@
 ---
 layout: default
 ---
+<div class="breadcrumb">
+  <a href="/case-studies">Case Studies</a><span> > </span>
+</div>
+<div class="activity">
+  <div class="main-image"><img src="{{ page.image }}"/></div>
+  <h1> {{ page.title }} </h1>
+</div>
 
 {{ page.author }}
 
@@ -8,7 +15,9 @@ layout: default
   {{ content }}
 </div>
 
+<hr / >
+
 {% if page.category != "" %}
-See also: 
+See also:
 {{ page.category }}
 {% endif %}

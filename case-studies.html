@@ -9,7 +9,7 @@ permalink: /case-studies/
 <div class="case-studies--home">
 	{% for case-study in site.case-studies %}
 		<div class="case-study--teaser">
-			<img src="{{ case-study.main-image }}" width="400px">
+			<img src="{{ case-study.image }}" width="400px">
 	  	<h2> <a href={{ case-study.url }}>{{ case-study.title }}</a> </h2>
 		</div>
   {% endfor %}

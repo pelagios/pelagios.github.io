@@ -23,6 +23,7 @@ layout: default
 {% if page.category contains 'semantic annotation' %}
   {% for case-study in site.case-studies %}
     {% if case-study.category contains 'semantic annotation' %}
+   <img src="{{ case-study.image }}" width="180" / >
    <h2>{{ case-study.title }}</h2>
    {{ case-study.excerpt }}
    <a href="{{ case-study.url }}">Read more </a>
@@ -31,6 +32,7 @@ layout: default
 {% elsif page.category contains 'gazetteer' %}
   {% for case-study in site.case-studies %}
     {% if case-study.category contains 'gazetteer' %}
+   <img src="{{ case-study.image }}" width="180" / >
    <h2>{{ case-study.title }}</h2>
    {{ case-study.excerpt }}
    <a href="{{ case-study.url }}">Read more </a>
@@ -65,7 +67,7 @@ layout: default
   {% for partner in site.partners %}
     {% if partner.category contains 'semantic annotation' %}
     <div class="partner--related">
-      {{ partner.logo }}
+      <img class="partner--logo" src='{{ partner.logo }}' alt="{{ partner.title }} logo"/>
       <div class="partner--text">
       <h3>{{ partner.title }}</h3>
       {{ partner.excerpt }}

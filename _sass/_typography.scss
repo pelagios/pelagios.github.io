@@ -73,4 +73,13 @@ hr {
 }
 .breadcrumb {
   font-size: $font-size-tiny;
+  a {
+    text-decoration: none;
+  }
+}
+
+p > img {
+  width: 180px;
+  float: right;
+  margin: 0 0 35px 25px;
 }
