@@ -13,7 +13,7 @@ title: Welcome to Pelgios Network
 </div>
 <div class="case-studies--home-wrapper">
 	<div class="case-studies--home">
-	{% for case-study in site.case-studies %}
+	{% for case-study in site.case-studies limit:5 %}
 		<div class="case-study--teaser">
 			<img src="{{ case-study.image }}" width="400px">
 	  	<h2> <a href={{ case-study.url }}>{{ case-study.title }}</a> </h2>
@@ -28,7 +28,7 @@ title: Welcome to Pelgios Network
 	<div class="activity--teaser">
 		<img src="{{ activity.image }}" width="115px">
     <h3>{{ activity.name }}</h3>
-	  {{ activity.excerpt | strip_html }}
+	  <p>{{ activity.excerpt | strip_html }}</p>
 	  <a href={{ activity.url }}>Read more</a>
 	</div>
  	{% endfor %}

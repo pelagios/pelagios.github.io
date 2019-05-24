@@ -1,8 +1,13 @@
 .activities--page {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   .activity--teaser {
-
+    max-width: 30%;
+    img {
+      background: $light-grey;
+      height: 115px;
+    }
   }
 }
 
@@ -19,4 +24,16 @@
 }
 .activity--teaser {
     width: 115px;
+    img {
+      height: 115px;
+      background: $light-grey;
+    }
+    h3 {
+      font-size: 15px;
+      letter-spacing: -0.5px;
+      line-height: 15px;
+    }
+    p {
+      line-height: 15px;
+    }
 }

@@ -1,4 +1,5 @@
-.case-studies--home {
+.case-studies--home,
+.case-studies--list {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -7,7 +8,11 @@
   }
 }
 $margin: calc(100vw-400px);
-.case-study--teaser {
+.case-study--teaser:nth-of-type(1),
+.case-study--teaser:nth-of-type(2),
+.case-study--teaser:nth-of-type(3),
+.case-study--teaser:nth-of-type(4),
+.case-study--teaser:nth-of-type(5) {
   max-width: 400px;
   position: relative;
   float: left;
@@ -21,6 +26,7 @@ $margin: calc(100vw-400px);
     height: 100%;
     //overflow: hidden;
     width: auto;
+    border-radius: 0;
 
   }
   h2 {
@@ -74,6 +80,28 @@ $margin: calc(100vw-400px);
       background: $sea-green-1;
     }
   }
+}
+.case-study--teaser:nth-of-type(6){
+  margin-top: 80px;
+}
+.case-study--teaser {
+  width: 100%;
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: $light-grey;
+    float: left;
+    margin-right: 20px;
+  }
+  h2 {
+    margin-top: 8px;
+  }
+}
+
+.case-study {
+  margin-bottom: 30px;
+
 }
 
 .activities--teaser {
