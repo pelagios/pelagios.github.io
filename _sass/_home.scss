@@ -1,25 +1,13 @@
-.case-studies--home-wrapper {
-  background-image: url(/assets/mainimage.jpg);
-  padding: 60px 0;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100vw;
-  clear: both;
-  .case-studies--home {
-    width: $content-max-width;
-    margin-left: auto;
-    margin-right: auto;
-  }
 
-
-}
 
 .blurb--home{
-  width: 400px;
+  max-width: 400px;
   float: left;
   margin-right: 50px;
-  margin-bottom: 70px;
+  margin-bottom: 20px;
+  @media (min-width : 600px){
+    margin-bottom: 70px;
+  }
   p {
     margin: 0;
   }
@@ -39,8 +27,12 @@
   header {
     background: $white;
     .logo {
-      height: 100px;
-      margin-top: 50px;
+      height: 60px;
+      margin-top: 20px;
+      @media (min-width : 600px){
+        height: 100px;
+        margin-top: 50px;
+      }
     }
   }
 }

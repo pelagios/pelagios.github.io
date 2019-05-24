@@ -5,13 +5,25 @@
 .page--type-case-studies,
 .page--type-activities {
   .constrained.container {
-    padding-left: $content-column-width;
-    width: $content-column-width-large;
+    @media (min-width: 600px){
+      padding-left: 30%;
+      width: 70%;
+      .main-image {
+          margin-left:  -30%;
+          position: absolute;
+          padding-right: 30px;
+          width: 27%;
+      }
+    }
+    @media (min-width: 800px){
+      padding-left: $content-column-width;
+      max-width: $content-column-width-large;
+      .main-image {
+          margin-left:  -$content-column-width;
+          width: 170px;
+      }
+    }
     .main-image {
-      margin-left:  -$content-column-width;
-      position: absolute;
-      padding-right: 30px;
-      width: 170px;
       margin-top: 10px;
       img {
         width: 100%;
@@ -56,5 +68,6 @@
 .activity--case-studies {
   img {
     float: right;
+    margin: 0 0 20px 20px;
   }
 }
