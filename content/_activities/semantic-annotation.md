@@ -4,6 +4,7 @@ name: Semantic Annotation
 activity-coordinator1: agnetha
 activity-coordinator2: benni
 category: [semantic annotation]
+excerpt_separator: <!--more-->
 
 ---
-Semantic annotaion provides online resources and a community forum for using open data methods to link and explore historical places.  You can annotaion provides online resources and a community forum for using open data methods to link and explore historical places.
+Semantic annotaion provides online resources and a community forum for using open data methods to link and explore historical places. <!--more--> You can annotaion provides online resources and a community forum for using open data methods to link and explore historical places.

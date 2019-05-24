@@ -15,8 +15,12 @@ title: Welcome to Pelgios Network
 	<div class="case-studies--home">
 	{% for case-study in site.case-studies limit:5 %}
 		<div class="case-study--teaser">
+			<a href={{ case-study.url }}>
 			<img src="{{ case-study.image }}" width="400px">
-	  	<h2> <a href={{ case-study.url }}>{{ case-study.title }}</a> </h2>
+			<div class="case-study--title">
+	  	<h2>{{ case-study.title }} </h2>
+			</div>
+			</a>
 		</div>
   {% endfor %}
 	</div>

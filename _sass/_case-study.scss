@@ -21,6 +21,22 @@ $margin: calc(100vw-400px);
   align-self: flex-end;
   display: block;
   overflow: hidden;
+  a {
+    width: 100%;
+    &:before {
+      content: "";
+      display: block;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      background: $white;
+      z-index: 10;
+      opacity: 0;
+    }
+    &:hover:before {
+      opacity: 0.2;
+    }
+  }
   img {
     display: block;
     height: 100%;
@@ -29,28 +45,38 @@ $margin: calc(100vw-400px);
     border-radius: 0;
 
   }
-  h2 {
-    color: white;
-    margin: 0;
+  .case-study--title {
+    background: #099B9B;
+    min-height: 90px;
+    display: block;
     width: 100%;
     position: absolute;
     bottom: 0;
-    a {
-      padding: 20px;
-      display: block;
-    }
+    line-height: 90px;
   }
+  h2 {
+    color: white;
+    padding: 10px 15px;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 20px;
+    margin: 0;
+    margin-bottom: 14px;
+  }
+}
+.case-study--teaser{
   &:nth-of-type(1) {
     width: 319px;
     height: 218px;
-    h2 {
+    .case-study--title {
       background: $sea-green-1;
     }
   }
   &:nth-of-type(2) {
     width: 322px;
     height: 250px;
-    h2 {
+    .case-study--title {
       background: $sea-green-2;
     }
   }
@@ -59,7 +85,7 @@ $margin: calc(100vw-400px);
     height: 205px;
     align-self: flex-start;
     margin-left: 89px;
-    h2 {
+    .case-study--title {
       background: $sea-green-2;
     }
   }
@@ -67,7 +93,7 @@ $margin: calc(100vw-400px);
     width: 170px;
     height: 260px;
     align-self: flex-start;
-    h2 {
+    .case-study--title {
       background: $sea-green-3;
     }
   }

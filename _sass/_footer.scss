@@ -29,6 +29,7 @@ footer ul {
     color: $white;
     &:hover {
       background: $turquoise;
+      color: $white;
     }
   }
 }
@@ -49,6 +50,9 @@ footer ul {
       }
     }
   }
+}
+.footer-3 p {
+  font-size: $font-size-tiny;
 }
 
 .footer-block {
