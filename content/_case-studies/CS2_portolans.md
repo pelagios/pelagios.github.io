@@ -2,7 +2,7 @@
 layout: case
 title: Medieval sea-charts – centuries before their time
 author: Tony Campbell
-category: gazetteer, semantic annotation
+category: [gazetteer, semantic annotation]
 image: /assets/portolans.jpg
 ---
 
