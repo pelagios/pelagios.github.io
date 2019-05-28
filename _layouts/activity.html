@@ -14,79 +14,16 @@ layout: default
 
 <div class="activity--case-studies">
 
-{% for case-study in site.category[page.category] %}
-  <li>
-     {{ case-study.title }}
-  </li>
+{% for case-study in site.case-studies %}
+  {% if case-study.category contains page.category.first %}
+    <div class="case-study">
+      <img src="{{ case-study.image }}" width="180" / >
+      <h2>{{ case-study.title }}</h2>
+      {{ case-study.excerpt }}
+      <a href="{{ case-study.url }}">Read more </a>
+    </div>
+  {% endif %}
 {% endfor %}
-
-{% if page.category contains 'collaboration' %}
-  {% for case-study in site.case-studies %}
-    {% if case-study.category contains 'collaboration' %}
-      <div class="case-study">
-       <img src="{{ case-study.image }}" width="180" / >
-       <h2>{{ case-study.title }}</h2>
-       {{ case-study.excerpt }}
-       <a href="{{ case-study.url }}">Read more </a>
-     </div>
-    {% endif %}
-  {% endfor %}
-{% elsif page.category contains 'documentation' %}
-  {% for case-study in site.case-studies %}
-    {% if case-study.category contains 'documentation' %}
-    <div class="case-study">
-     <img src="{{ case-study.image }}" width="180" / >
-     <h2>{{ case-study.title }}</h2>
-     {{ case-study.excerpt }}
-     <a href="{{ case-study.url }}">Read more </a>
-   </div>
-    {% endif %}
-  {% endfor %}
-{% elsif page.category contains 'gazetteer' %}
-  {% for case-study in site.case-studies %}
-    {% if case-study.category contains 'gazetteer' %}
-    <div class="case-study">
-     <img src="{{ case-study.image }}" width="180" / >
-     <h2>{{ case-study.title }}</h2>
-     {{ case-study.excerpt }}
-     <a href="{{ case-study.url }}">Read more </a>
-   </div>
-    {% endif %}
-  {% endfor %}
-{% elsif page.category contains 'registry' %}
-  {% for case-study in site.case-studies %}
-    {% if case-study.category contains 'registry' %}
-    <div class="case-study">
-     <img src="{{ case-study.image }}" width="180" / >
-     <h2>{{ case-study.title }}</h2>
-     {{ case-study.excerpt }}
-     <a href="{{ case-study.url }}">Read more </a>
-   </div>
-    {% endif %}
-  {% endfor %}
-{% elsif page.category contains 'semantic annotation' %}
-  {% for case-study in site.case-studies %}
-    {% if case-study.category contains 'semantic annotation' %}
-    <div class="case-study">
-     <img src="{{ case-study.image }}" width="180" / >
-     <h2>{{ case-study.title }}</h2>
-     {{ case-study.excerpt }}
-     <a href="{{ case-study.url }}">Read more </a>
-   </div>
-    {% endif %}
-  {% endfor %}
-{% elsif page.category contains 'visualisation' %}
-  {% for case-study in site.case-studies %}
-    {% if case-study.category contains 'visualisation' %}
-    <div class="case-study">
-     <img src="{{ case-study.image }}" width="180" / >
-     <h2>{{ case-study.title }}</h2>
-     {{ case-study.excerpt }}
-     <a href="{{ case-study.url }}">Read more </a>
-   </div>
-    {% endif %}
-  {% endfor %}
-{% endif %}
 
 </div>
 
@@ -122,91 +59,18 @@ layout: default
 <div class="activity--partners">
 <h2>Partner Projects</h2>
 
-
-
-{% if page.category contains 'collaboration' %}
-  {% for partner in site.partners %}
-    {% if partner.category contains 'collaboration' %}
-    <div class="partner--related">
-      {% if partner.logo != nil %}
-      <img class="partner--logo" src='{{ partner.logo }}' alt="{{ partner.title }} logo"/>
-      {% endif %}
-      <div class="partner--text">
-      <h3>{{ partner.title }}</h3>
-      {{ partner.excerpt }}
-      </div>
+{% for partner in site.partners %}
+  {% if partner.category contains page.category.first %}
+  <div class="partner--related">
+    {% if partner.logo != nil %}
+    <img class="partner--logo" src='{{ partner.logo }}' alt="{{ partner.title }} logo"/>
+    {% endif %}
+    <div class="partner--text">
+    <h3>{{ partner.title }}</h3>
+    {{ partner.excerpt }}
     </div>
-    {% endif %}
-  {% endfor %}
-{% elsif page.category contains 'documentation' %}
-  {% for partner in site.partners %}
-    {% if partner.category contains 'documentation' %}
-      <div class="partner--related">
-        {% if partner.logo != nil %}
-        <img class="partner--logo" src='{{ partner.logo }}' alt="{{ partner.title }} logo"/>
-        {% endif %}
-        <div class="partner--text">
-        <h3>{{ partner.title }}</h3>
-        {{ partner.excerpt }}
-        </div>
-      </div>
-    {% endif %}
-  {% endfor %}
-  {% elsif page.category contains 'gazetteer' %}
-    {% for partner in site.partners %}
-      {% if partner.category contains 'gazetteer' %}
-        <div class="partner--related">
-          {% if partner.logo != nil %}
-          <img class="partner--logo" src='{{ partner.logo }}' alt="{{ partner.title }} logo"/>
-          {% endif %}
-          <div class="partner--text">
-          <h3>{{ partner.title }}</h3>
-          {{ partner.excerpt }}
-          </div>
-        </div>
-      {% endif %}
-    {% endfor %}
-{% elsif page.category contains 'registry' %}
-  {% for partner in site.partners %}
-    {% if partner.category contains 'registry' %}
-      <div class="partner--related">
-        {% if partner.logo != nil %}
-        <img class="partner--logo" src='{{ partner.logo }}' alt="{{ partner.title }} logo"/>
-        {% endif %}
-          <div class="partner--text">
-            <h3>{{ partner.title }}</h3>
-            {{ partner.excerpt }}
-          </div>
-      </div>
-    {% endif %}
-  {% endfor %}
-{% elsif page.category contains 'semantic annotation' %}
-  {% for partner in site.partners %}
-    {% if partner.category contains 'semantic annotation' %}
-      <div class="partner--related">
-        {% if partner.logo != nil %}
-        <img class="partner--logo" src='{{ partner.logo }}' alt="{{ partner.title }} logo"/>
-        {% endif %}
-        <div class="partner--text">
-          <h3>{{ partner.title }}</h3>
-          {{ partner.excerpt }}
-        </div>
-    </div>
-    {% endif %}
-  {% endfor %}
-{% elsif page.category contains 'visualisation' %}
-  {% for partner in site.partners %}
-    {% if partner.category contains 'visualisation' %}
-        <div class="partner--related">
-          {% if partner.logo != nil %}
-          <img class="partner--logo" src='{{ partner.logo }}' alt="{{ partner.title }} logo"/>
-          {% endif %}
-          <div class="partner--text">
-            <h3>{{ partner.title }}</h3>
-            {{ partner.excerpt }}
-          </div>
-        </div>
-    {% endif %}
-  {% endfor %}
-{% endif %}
+  </div>
+  {% endif %}
+{% endfor %}
+
 </div>
