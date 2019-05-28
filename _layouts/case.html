@@ -19,5 +19,13 @@ layout: default
 
 {% if page.category != "" %}
 See also:
-{{ page.category }}
+{% for category in page.category %}
+  {% for activity in site.activities %}
+    {% if activity.category contains category %}
+      <div class="related-activity">
+        <a href="{{ activity.url }}"> <h4>{{ activity.name }}</h4> </a>
+      </div>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
 {% endif %}
