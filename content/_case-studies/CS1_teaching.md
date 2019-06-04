@@ -2,7 +2,7 @@
 layout: case
 title: Recogito in the Classroom
 author: Antonis Hadjikyriacou; Boğaziçi University
-category: [gazetteer, semantic annotation]
+category: [gazetteer] [semantic annotation]
 image: /assets/images/case_study1 image.jpg
 ---
 
