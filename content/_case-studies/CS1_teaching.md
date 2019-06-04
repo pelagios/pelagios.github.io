@@ -18,7 +18,7 @@ Recogito proved to be an extremely useful tool, revealing spatial patterns that 
 require the specialised knowledge of GIS software. A major challenge is the limited degree of representation of Ottoman place names in 
 Recogito’s existing gazetteers.
 
-Building on this initial body of work, OttRec brought together the students of the course to work during the summer of 2018. You can read more about it [here](https://pro.europeana.eu/page/issue-12-pelagios#using-recogito-in-the-ottoman-history-classroom) 
+Building on this initial body of work, OttRec brought together the students of the course to work during the summer of 2018. You can read more about it [here](https://pro.europeana.eu/page/issue-12-pelagios#using-recogito-in-the-ottoman-history-classroom).
 
 
 
