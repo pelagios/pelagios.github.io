@@ -8,7 +8,7 @@ image:
 
 ---
 
-The Gazetteer Activity works to foster a diverse and interconnected set of universal place identifiers.
+Works to foster a diverse and interconnected set of universal place identifiers.
 
 <img src="/assets/mainimage.jpg"/>
 
