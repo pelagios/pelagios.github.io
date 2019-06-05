@@ -7,4 +7,4 @@ category: [documentation, pedagogy]
 
 ---
 
-This activity supports the use of linked data in education and cultural heritage.
+Supports the use of linked data in education and cultural heritage.
