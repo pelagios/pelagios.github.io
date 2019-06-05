@@ -2,7 +2,7 @@
 layout: default
 title: Subaltern Recogito
 partner-url:
-category: semantic-annotation
+category: semantic annotation
 logo: /assets/images/partners/Partner_Subaltern_Recogito.jpg
 ---
 

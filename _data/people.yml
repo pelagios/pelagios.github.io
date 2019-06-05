@@ -1,10 +1,35 @@
-maria:
-    name: Maria Young
-    email: maria@agile.coop
-    img: https://agile.coop/sites/default/files/styles/user_picture_medium/public/pictures/picture-23-1385050494.jpg
-    institution: Agile Collective
-richard:
-    name: Richard Rowley
-    email: richard@agile.coop
-    img: https://agile.coop/sites/default/files/styles/user_picture_medium/public/pictures/picture-10-1336487434.jpg
-    institution: Linacre College
+EltonBarker:
+    name: Elton Barker
+    email:
+    img:
+    institution:
+Valeria Vitale:
+    name: Valeria Vitale
+    email:
+    img:
+    institution:
+Gabriel Bodard:
+    name: Gabriel Bodard
+    email:
+    img:
+    institution:
+Rebecca Kahn:
+    name: Rebecca Kahn
+    email:
+    img:
+    institution:
+Sarah Bond:
+    name: Sarah Bond
+    email:
+    img:
+    institution:
+Gimena del Rio Riande:
+    name: Gimena del Rio Riande
+    email:
+    img:
+    institution:
+Leif Isaksen:
+    name: Leif Isaksen
+    email:
+    img:
+    institution:

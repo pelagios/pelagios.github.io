@@ -1,10 +1,10 @@
 ---
 layout: activity
 name: Gazetteer
-activity-coordinator1: richard
-activity-coordinator2: maria
+activity-coordinator1:
+activity-coordinator2:
 category: [gazetteer]
-image: 
+image:
 
 ---
 
