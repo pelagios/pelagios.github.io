@@ -7,4 +7,4 @@ category: [visualisation]
 
 ---
 
-This Activity develops methods and tools which make use of semantic annotation.
+Develops methods and tools which make use of semantic annotation.
