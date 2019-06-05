@@ -7,4 +7,4 @@ category: [collaboration]
 
 ---
 
-This Activity provides space for all Project Partners to share resources and collaborate.
+Provides space for all Project Partners to share resources and collaborate.
