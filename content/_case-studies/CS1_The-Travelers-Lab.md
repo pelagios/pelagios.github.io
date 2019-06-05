@@ -3,10 +3,10 @@ layout: case
 title: The Travelers Lab
 author: Dr Jesse Torgerson
 category: [semantic annotation]
-image: /assets/Case study 2 Image.jpg
+image: /assets/images/Case study 2 Image.jpg
 ---
 
-The Traveler’s Lab, at Wesleyan University, is a collaborative hub of scholars who are investigating the movement of information and the people and networks that carried them around the world before the advent of industrial travel. 
+The Traveler’s Lab, at Wesleyan University, is a collaborative hub of scholars who are investigating the movement of information and the people and networks that carried them around the world before the advent of industrial travel.
 
 They have been using Recogito to generate maps of of two different versions of a ninth-century Greek chronography written by two authors: George Synkellos and Theophanes the Confessor. Within each of those versions, they are then able to set up comparisons between portions of the text, which enables the researchers to immediately show the proof for statements such as: “The chronography’s narrative of Diocletian uses provinces as the primary geographic setting, while the chronography’s narrative of Constantine is primarily set in cities.”
 
