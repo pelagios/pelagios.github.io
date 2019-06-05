@@ -7,4 +7,4 @@ category: [registry]
 
 ---
 
-This Activity tackles the challenges of distributed registration and discovery of semantic annotation.
+Tackles the challenges of distributed registration and discovery of semantic annotation.
