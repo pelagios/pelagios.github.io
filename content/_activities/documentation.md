@@ -1,9 +1,9 @@
 ---
 layout: activity
-name: Documentation
+name: Pedagogy
 activity-coordinator1: Valeria Vitale
 activity-coordinator2: Gimena del Rio Riande
-category: [documentation]
+category: [documentation, pedagogy]
 
 ---
 
