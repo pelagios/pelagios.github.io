@@ -1,6 +1,6 @@
 ---
 layout: case
-title: EviDENce: Personal remembering with Recogito
+title: "EviDENce: Personal remembering with Recogito"
 author: Marieke van Erp
 category: [registry, visualisation]
 image: 
