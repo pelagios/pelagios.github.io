@@ -3,7 +3,7 @@ layout: case
 title: "EviDENce: Personal remembering with Recogito"
 author: Marieke van Erp
 category: [registry, visualisation]
-image: 
+image: assets/images/CS6_Evidence.png
 ---
 
 In the EviDENce project, researchers at the Royal Netherlands Academy of Arts and Sciences Humanities Cluster’s Digital Humanities Lab 
