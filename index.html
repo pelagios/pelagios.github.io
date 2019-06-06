@@ -5,28 +5,34 @@ title: Welcome to Pelgios Network
 ---
 <div class="blurb--home">
 	<p>The Pelagios Network is a collaboration between researchers, scientists and curators who work with Linked Open Geodata in the Humanities and Cultural heritage, to link and explore historical places.</p>
-	<iframe width="400" height="225" src="https://www.youtube.com/embed/5Wt3MizGsiw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div><!-- /.blurb -->
+	</div><!-- /.blurb -->
 <div class="cta--home">
 		<a class="cta" href="https://groups.google.com/forum/#!forum/pelagios-announcements" >Join the discussion</a>
 		<a class="cta" href="https://github.com/pelagios" >Find us on Github</a>
 		<a class="cta" href="https://recogito.pelagios.org/" >Discover Recogito</a>
 </div>
 
+
+
 <div class="case-studies--home-wrapper">
 	<div class="case-studies--home">
 	{% for case-study in site.case-studies limit:5 %}
 		<div class="case-study--teaser">
 			<a href={{ case-study.url }}>
-			<img src="{{ case-study.image }}" width="400px">
-			<div class="case-study--title">
-	  	<h2>{{ case-study.title }} </h2>
-			</div>
+				<img src="{{ case-study.image }}" width="400px">
+				<div class="case-study--title">
+					<h2>{{ case-study.title }} </h2>
+				</div>
 			</a>
 		</div>
   {% endfor %}
 	</div>
 </div>
+
+<div class="vid">
+  <iframe width="400" height="225" src="https://www.youtube.com/embed/5Wt3MizGsiw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 <div class="activities--home">
 	<h2>The activities of the Pelagios network</h2>
 	{% assign sorted_activities = site.activities | sort:'name' %}
