@@ -7,4 +7,4 @@ category: [semantic annotation]
 excerpt_separator: <!--more-->
 
 ---
-Provides online resources and a community forum for using open data methods to link and explore historical places. <!--more-->
+Provides resources and a community for using open data to link and explore historical places. <!--more-->
