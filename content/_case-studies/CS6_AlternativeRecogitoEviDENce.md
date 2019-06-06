@@ -2,7 +2,7 @@
 layout: case
 title: EviDENce: Personal remembering with Recogito
 author: Marieke van Erp
-category: [visualisation, annotation]
+category: [registry, visualisation]
 image: 
 ---
 
