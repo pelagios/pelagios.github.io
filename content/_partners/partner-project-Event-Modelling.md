@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Archaeological and Historical Event Modelling
-partner-url: 
+logo: 
+partner-url: www.bbc.com
 category: semantic annotation
 ---
 

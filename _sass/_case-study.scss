@@ -1,5 +1,6 @@
 .case-studies--home-wrapper {
   background-image: url(/assets/images/mainimage.jpg);
+  background-size: cover;
   padding: 60px 0;
   position: relative;
   left: 50%;
@@ -58,9 +59,8 @@
   }
   img {
     display: block;
-    height: 100%;
-    //overflow: hidden;
-    width: auto;
+    height: auto;
+    width: 100%;
     border-radius: 0;
 
   }
@@ -71,17 +71,30 @@
     width: 100%;
     position: absolute;
     bottom: 0;
-    line-height: 90px;
+    line-height: 80px;
+    &:before {
+      content: '';
+      background: -moz-linear-gradient(top, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0) 80%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, rgba(0,0,0,0.2) 0%,rgba(255,255,255,0) 80%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(255,255,255,0) 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+      display: block;
+      height: 100%;
+      position: absolute;
+      width: 100%;
+      z-index: 20;
+    }
   }
   h2 {
     color: white;
-    padding: 10px 15px;
-    font-size: 20px;
+    padding: 0 20px;
+    font-size: 18px;
     display: inline-block;
     vertical-align: middle;
-    line-height: 20px;
+    line-height: 1.2;
     margin: 0;
-    margin-bottom: 14px;
+    position: relative;
+    z-index: 40;
   }
 }
 .case-study--teaser{
@@ -121,7 +134,7 @@
     height: 235px;
     align-self: flex-start;
     margin-right: 0;
-    h2 {
+    .case-study--title {
       background: $sea-green-1;
     }
   }

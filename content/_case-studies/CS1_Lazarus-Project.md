@@ -1,9 +1,9 @@
 ---
 layout: case
-title: Pelagios, Recogito and multispectral imaging of cultural heritage objects
+title: Pelagios, Recogito and multispectral imaging
 author: Helen Davies &
 category: [visualisation]
-image: /assets/images/Lazarus.jpg
+image: /assets/images/cs4.png
 ---
 
 The Lazarus Project is a multispectral imaging collaboration, based out of the University of Rochester.

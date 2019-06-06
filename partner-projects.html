@@ -11,13 +11,21 @@ Generally speaking, Partner contributions operate through independently-funded o
 
 {% for partner in sorted_partners %}
 <div class="partner">
-  {% if partner.logo != nil %}
+  {% if partner.partner-url != nil %}
+  
+  <a href="http://{{ partner.partner-url }}">
+    {% if partner.logo != nil %}
+      <img class="partner-logo" src="{{ partner.logo }}"  />
+    {% endif %}
+      <h2>{{ partner.title }}</h2>
+      <p>{{ partner.content }}</p>
+    </a>
+    {% else %}
+    {% if partner.logo != nil %}
     <img class="partner-logo" src="{{ partner.logo }}"  />
   {% endif %}
-  <h2>{{ partner.title }}</h2>
-  <p>{{ partner.content }}</p>
-  {% if partner.partner-url != nil %}
-    <a href="http://{{ partner.partner-url }}">Find out more about {{ partner.title }}</a>
+    <h2>{{ partner.title }}</h2>
+    <p>{{ partner.content }}</p>
   {% endif %}
  </div>
 {% endfor %}

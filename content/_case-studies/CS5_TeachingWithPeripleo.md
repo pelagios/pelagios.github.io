@@ -1,6 +1,6 @@
 ---
 layout: case
-title: Using Peripleo in Class
+title: Teaching with Peripleo
 author: Chiara Palladino
 category: [pedagogy, visualisation]
 image: assets/images/CS5_TeachingWithPeripleo.jpg 

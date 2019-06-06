@@ -3,7 +3,7 @@ layout: case
 title: Recogito in the Classroom
 author: Antonis Hadjikyriacou; Boğaziçi University
 category: [gazetteer, semantic annotation]
-image: /assets/images/case_study1 image.jpg
+image: /assets/images/cs1.png
 ---
 
 The project aimed to test the applicability of Recogito within the field of Ottoman studies and to function as a starter towards the
