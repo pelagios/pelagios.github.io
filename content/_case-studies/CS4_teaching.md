@@ -1,7 +1,7 @@
 ---
 layout: case
-title: Recogito in the Classroom
-author: Antonis Hadjikyriacou; Boğaziçi University
+title: Creating an Ottoman Gazetteer
+author: Antonis Hadjikyriacou
 category: [gazetteer, semantic annotation]
 image: /assets/images/cs1.png
 ---
