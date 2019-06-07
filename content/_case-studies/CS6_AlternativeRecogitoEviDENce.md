@@ -1,6 +1,6 @@
 ---
 layout: case
-title: "EviDENce: Personal remembering with Recogito"
+title: "Annotating WWII eye-witness testimonies"
 author: Marieke van Erp
 category: [registry, visualisation]
 image: assets/images/CS6_Evidence.png
