@@ -1,6 +1,6 @@
 ---
 layout: case
-title: Medieval sea-charts: accurate before their time
+title: "Medieval sea-charts: accurate before their time"
 author: Tony Campbell
 category: [gazetteer, semantic annotation]
 image: /assets/images/cs2.png
