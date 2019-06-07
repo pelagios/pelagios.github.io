@@ -1,6 +1,6 @@
 ---
 layout: case
-title: Roman Empire Vector Map
+title: Customise maps of ancient Greece and Rome
 author: Petr Pridal
 category: [gazetteer, visualisation]
 image: assets/images/CS8_RomanVector.jpeg
