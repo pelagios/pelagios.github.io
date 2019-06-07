@@ -1,6 +1,6 @@
 ---
 layout: case
-title: Pelagios, Recogito and multispectral imaging
+title: Bringing damaged documents back to life
 author: Helen Davies & Alexander J. Zawacki, University of Rochester
 category: [visualisation]
 image: /assets/images/cs4.png
