@@ -61,3 +61,18 @@
     }
   }
 }
+
+#video-container {
+  background: grey;
+  padding: 60px 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  clear: both;
+}
+
+.video {
+  margin: 0 auto;
+  max-width: 800px;
+}
