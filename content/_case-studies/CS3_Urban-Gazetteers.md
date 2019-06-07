@@ -18,4 +18,4 @@ place references within them.
 
 In other words, the community which has developed around gazetteers has realised that URIs are needed not only for the city but also for units within it, such as buildings, monuments, squares and other spaces.
 What is needed is, in our words, an urban gazetteer.
-This case study describes how a group of scholars are trying to build one.
+This <a href="https://medium.com/pelagios/final-report-urban-gazetteers-35ba6b75f243">case</a> study describes how a group of scholars are trying to build one.
