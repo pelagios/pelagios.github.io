@@ -1,6 +1,6 @@
 ---
 layout: case
-title: Teaching with Peripleo
+title: Linked Data in the classroom
 author: Chiara Palladino
 category: [pedagogy, visualisation]
 image: /assets/images/CS5_TeachingWithPeripleo.jpg 
