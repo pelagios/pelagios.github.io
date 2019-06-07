@@ -16,4 +16,4 @@ and explore a range of charts from the 14th and 15th century. Using semantic ann
 to explore how different historical sources might be used together to improve our understanding of how people thought about their world
 in those periods.
 
-You can read more about the discoveries here
+You can read more about the discoveries <a href="https://blogs.bl.uk/magnificentmaps/2016/08/putting-the-medieval-online-pelagios.html"> here</a>
