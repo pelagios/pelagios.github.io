@@ -24,16 +24,22 @@
 }
 .activity--teaser {
     width: 115px;
+    a {
+      text-decoration: none;
+    }
     img {
       height: 115px;
       background: $light-grey;
     }
     h3 {
-      font-size: 15px;
+      font-size: 17px;
       letter-spacing: -0.5px;
       line-height: 15px;
+      margin-bottom: 10px;
     }
     p {
-      line-height: 15px;
+      font-size: 14px;
+      line-height: 1.2;
+      margin-top: 0;
     }
 }

@@ -4,6 +4,7 @@ title: "Annotating WWII eye-witness testimonies"
 author: Marieke van Erp
 category: [registry, visualisation]
 image: /assets/images/CS6_Evidence.png
+
 ---
 
 In the EviDENce project, researchers at the Royal Netherlands Academy of Arts and Sciences Humanities Cluster’s Digital Humanities Lab

@@ -3,7 +3,7 @@ layout: case
 title: Digging into 16thC Mexico
 author: Patricia Murrieta-Flores & Katherine Bellamy
 category: [annotation, visualisation]
-image:  
+image:  assets/images/CS7_earlymexico.png
 ---
 
 The project ‘Digging into Early Colonial Mexico: A large-scale computational analysis of sixteenth-century historical sources’ (DECM) at the University of Lancaster is 

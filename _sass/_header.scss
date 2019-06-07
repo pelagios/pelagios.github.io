@@ -4,13 +4,8 @@ header {
   .logo {
     height: $logo-height;
     width: auto;
-    -webkit-transition: -webkit-transform .8s ease-in-out;
-    -ms-transition: -ms-transform .8s ease-in-out;
-    transition: transform .8s ease-in;
     &:hover {
-      transform:rotate(450deg);
-      -ms-transform:rotate(450deg);
-      -webkit-transform:rotate(450deg);
+
     }
   }
 }

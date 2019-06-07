@@ -4,37 +4,47 @@ title: Welcome to Pelgios Network
 
 ---
 <div class="blurb--home">
-	<p>Pelagios Commons provides online resources and a community forum for using open data methods to link and explore historical places. Check out our flagship linked-data project, Recogito.  <a href="/about">Read more about Pelagios Network.</a></p>
-</div><!-- /.blurb -->
+	<p>The Pelagios Network is a collaboration between researchers, scientists and curators who work with Linked Open Geodata in the Humanities and Cultural heritage, to link and explore historical places.</p>
+	</div><!-- /.blurb -->
 <div class="cta--home">
 		<a class="cta" href="https://groups.google.com/forum/#!forum/pelagios-announcements" >Join the discussion</a>
 		<a class="cta" href="https://github.com/pelagios" >Find us on Github</a>
 		<a class="cta" href="https://recogito.pelagios.org/" >Discover Recogito</a>
 </div>
-<iframe width="800" height="450" src="https://www.youtube.com/embed/5Wt3MizGsiw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 <div class="case-studies--home-wrapper">
 	<div class="case-studies--home">
 	{% for case-study in site.case-studies limit:5 %}
 		<div class="case-study--teaser">
 			<a href={{ case-study.url }}>
-			<img src="{{ case-study.image }}" width="400px">
-			<div class="case-study--title">
-	  	<h2>{{ case-study.title }} </h2>
-			</div>
+				<img src="{{ case-study.image }}" width="400px">
+				<div class="case-study--title">
+					<h2>{{ case-study.title }} </h2>
+				</div>
 			</a>
 		</div>
   {% endfor %}
 	</div>
 </div>
+
+<div id="video-container">
+	<div class="video">
+		<iframe width="400" height="225" src="https://www.youtube.com/embed/5Wt3MizGsiw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+</div>
+
 <div class="activities--home">
 	<h2>The activities of the Pelagios network</h2>
 	{% assign sorted_activities = site.activities | sort:'name' %}
  	{% for activity in sorted_activities %}
 	<div class="activity--teaser">
-		<img src="{{ activity.image }}" width="115px">
-    <h3>{{ activity.name }}</h3>
-	  <p>{{ activity.excerpt | strip_html }}</p>
-	  <a href={{ activity.url }}>Read more</a>
+		<a href={{ activity.url }}>
+			<img src="{{ activity.image }}" width="115px">
+    	<h3>{{ activity.name }}</h3>
+	  	<p>{{ activity.excerpt | strip_html }}</p>
+	  </a>
 	</div>
  	{% endfor %}
 </div>

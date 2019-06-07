@@ -1,9 +1,9 @@
 ---
 layout: case
-title: What are urban gazetteers? And why do we need them?
+title: What are urban gazetteers?
 author: Valeria Vitale
 category: [gazetteer]
-image: /assets/images/Agas fragment.png
+image: /assets/images/cs3.png
 ---
 Gazetteers are more than just lists of places. To digital humanist, they are invaluable tools for organizing information.
 They provide unique identifiers - in the form of URIs - enabling us to  connect data coming from different digital sources,
@@ -18,4 +18,4 @@ place references within them.
 
 In other words, the community which has developed around gazetteers has realised that URIs are needed not only for the city but also for units within it, such as buildings, monuments, squares and other spaces.
 What is needed is, in our words, an urban gazetteer.
-This case study describes how a group of scholars are trying to build one.
+This <a href="https://medium.com/pelagios/final-report-urban-gazetteers-35ba6b75f243">case</a> study describes how a group of scholars are trying to build one.

@@ -1,9 +1,9 @@
 ---
 layout: case
-title: Medieval sea-charts – centuries before their time
+title: "Medieval sea-charts: accurate before their time"
 author: Tony Campbell
 category: [gazetteer, semantic annotation]
-image: /assets/images/portolans.jpg
+image: /assets/images/cs2.png
 ---
 
 Probably originating in the 13th century, portolan charts (the medieval answer to the modern Admiralty chart) contradict every normal preconception about
@@ -16,4 +16,4 @@ and explore a range of charts from the 14th and 15th century. Using semantic ann
 to explore how different historical sources might be used together to improve our understanding of how people thought about their world
 in those periods.
 
-You can read more about the discoveries here
+You can read more about the discoveries <a href="https://blogs.bl.uk/magnificentmaps/2016/08/putting-the-medieval-online-pelagios.html"> here</a>
