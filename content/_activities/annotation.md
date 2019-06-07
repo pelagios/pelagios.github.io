@@ -4,6 +4,7 @@ name: Annotation
 activity-coordinator1: agnetha
 activity-coordinator2: benni
 category: [semantic annotation]
+activity-email: annotation@pelagios.org
 excerpt_separator: <!--more-->
 
 ---

@@ -31,8 +31,9 @@ layout: default
 {% assign coordinator1 = site.data.people[page.activity-coordinator1] %}
 {% assign coordinator2 = site.data.people[page.activity-coordinator2] %}
 
-{% if coordinator1 != nil %}
+
   <div class="activity--coordinators">
+    {% if coordinator1 != nil %}
     <h2>Activity Co-ordinators</h2>
     <div class="activity--coordinator">
       {% if coordinator1 != nil %}
@@ -50,11 +51,12 @@ layout: default
         <p>{{ coordinator2.name }}, {{ coordinator2.institution }}</p>
       {% endif %}
     </div>
-    <a href="cta small" class="get-in-touch">Get in touch</a>
+    {% endif %}
+    <a href="mailto:{{ page.activity-email }}" class="get-in-touch">Get in touch</a>
   </div>
 
 <hr />
-{% endif %}
+
 
 <div class="activity--partners">
 <h2>Partner Projects</h2>
