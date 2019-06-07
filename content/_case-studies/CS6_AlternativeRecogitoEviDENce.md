@@ -1,6 +1,6 @@
 ---
 layout: case
-title: "Annotating WWII eye-witness testimonies"
+title: "Annotating WWII testimonies"
 author: Marieke van Erp
 category: [registry, visualisation]
 image: /assets/images/CS6_Evidence.png
