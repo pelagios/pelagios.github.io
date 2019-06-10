@@ -10,4 +10,4 @@ excerpt_separator: <!--more-->
 image: /assets/images/Actvity_annotation.jpg
 
 ---
-Provides resources and a community for using open data to link and explore historical places. <!--more-->
+Supporting the use of open data to link and explore historical places. <!--more-->
