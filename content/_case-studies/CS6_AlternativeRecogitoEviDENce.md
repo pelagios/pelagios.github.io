@@ -4,6 +4,7 @@ title: "Annotating WWII testimonies"
 author: Marieke van Erp
 category: [registry, visualisation]
 image: /assets/images/CS6_Evidence.png
+permalink: /case-studies/annotating-wwii-testimonies/
 
 ---
 

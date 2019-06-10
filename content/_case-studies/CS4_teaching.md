@@ -4,6 +4,7 @@ title: Creating an Ottoman Gazetteer
 author: Antonis Hadjikyriacou
 category: [gazetteer, semantic annotation]
 image: /assets/images/cs1.png
+permalink: /case-studies/creating-ottoman-gazetteer/
 ---
 
 The project aimed to test the applicability of Recogito within the field of Ottoman studies and to function as a starter towards the

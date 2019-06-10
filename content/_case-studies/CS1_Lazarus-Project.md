@@ -4,12 +4,13 @@ title: Bringing damaged documents back to life
 author: Helen Davies & Alexander J. Zawacki, University of Rochester
 category: [visualisation]
 image: /assets/images/cs4.png
+permalink: /case-studies/bringing-damaged-documents-back-to-life/
 ---
 
 The Lazarus Project is a multispectral imaging collaboration, based out of the University of Rochester.
 They employ state-of-the-art imaging technology to digitally recover faded, burned or otherwise damaged documents.
 
-After being captured by specialised cameras, the images are digitally ‘stacked’ and processed, whichenables the recovery of text and images which may be fully invisible due to damage, deliberate erasure, or simple age. 
+After being captured by specialised cameras, the images are digitally ‘stacked’ and processed, whichenables the recovery of text and images which may be fully invisible due to damage, deliberate erasure, or simple age.
 The Lazarus team collaborate with imaging scientists, image processors and scholars around the world. Those processing the images need to effectively share their results, while the scholars tasked with deciphering the recovered texts must be able to communicate (for example) which portions of the object have been rendered legible and which are in need of further processing. They also need to annotate those digital objects.
 Due to the nature of their work, the text of many of the objects has never before been transcribed.
 Many, too, have unusual shapes or layouts—e.g., maps, globes, cave paintings—which do not lend themselves well to typical word processors

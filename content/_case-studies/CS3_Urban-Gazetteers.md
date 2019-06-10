@@ -4,6 +4,7 @@ title: What are urban gazetteers?
 author: Valeria Vitale
 category: [gazetteer]
 image: /assets/images/cs3.png
+permalink: /case-studies/what-are-urban-gazetteers/
 ---
 Gazetteers are more than just lists of places. To digital humanist, they are invaluable tools for organizing information.
 They provide unique identifiers - in the form of URIs - enabling us to  connect data coming from different digital sources,

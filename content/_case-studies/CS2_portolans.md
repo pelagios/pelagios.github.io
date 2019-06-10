@@ -4,6 +4,7 @@ title: "Medieval sea-charts: accurate before their time"
 author: Tony Campbell
 category: [gazetteer, semantic annotation]
 image: /assets/images/cs2.png
+permalink: /case-studies/medieval-sea-charts/
 ---
 
 Probably originating in the 13th century, portolan charts (the medieval answer to the modern Admiralty chart) contradict every normal preconception about

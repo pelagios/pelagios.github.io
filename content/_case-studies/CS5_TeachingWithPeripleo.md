@@ -3,7 +3,8 @@ layout: case
 title: Linked Data in the classroom
 author: Chiara Palladino
 category: [pedagogy, visualisation]
-image: /assets/images/CS5_TeachingWithPeripleo.jpg 
+image: /assets/images/CS5_TeachingWithPeripleo.jpg
+permalink: /case-studies/linked-data-in-the-classroom/
 ---
 
 Linked Open Data is a powerful tool for navigating through the complexity of the inherently multifaceted reality of archaeological sites,

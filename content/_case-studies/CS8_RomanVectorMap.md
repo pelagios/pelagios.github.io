@@ -4,6 +4,7 @@ title: Customise maps of ancient Greece and Rome
 author: Petr Pridal
 category: [gazetteer, visualisation]
 image: /assets/images/CS8_RomanVector.jpeg
+permalink: /case-studies/customise-maps-ancient-greece-rome/
 ---
 
 The Roman Empire Vector Map gives people a chance to explore the ancient Mediterranean world as it was during the Roman Empire.
