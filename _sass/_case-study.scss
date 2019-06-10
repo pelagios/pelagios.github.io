@@ -190,6 +190,9 @@
 a:hover {
   .case-study {
     background: #e7e7e7;
+    h2, p {
+      color: initial;
+    }
   }
 }
 
