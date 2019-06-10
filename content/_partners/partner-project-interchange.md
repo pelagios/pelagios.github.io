@@ -5,4 +5,4 @@ partner-url:
 category: visualisation
 ---
 
-Working to extend the [Humanities Visualizer] (http://huviz.dev.nooron.com) (HuViz) to read and display files from Recogito.
+Working to extend the <a href="http://huviz.dev.nooron.com">Humanities Visualizer</a> to read and display files from Recogito.
