@@ -6,8 +6,7 @@ activity-coordinator1:
 activity-coordinator2:
 activity-email: gazetteers@pelagios.org
 category: [gazetteer]
-image: /assets/images/logocircle.svg
-
+image: /assets/images/Activity_gazetteer.jpg
 ---
 
 Works to foster a diverse and interconnected set of universal place identifiers.
