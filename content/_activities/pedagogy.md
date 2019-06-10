@@ -5,7 +5,7 @@ activity-coordinator1: Valeria Vitale
 activity-coordinator2: Gimena del Rio Riande
 activity-email: pedagogy@pelagios.org
 category: [documentation, pedagogy]
-image:
+image: /assets/images/logocircle.svg
 
 ---
 

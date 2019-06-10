@@ -1,14 +1,15 @@
 
 
-.blurb--home{
+.blurb--home {
   max-width: 400px;
   float: left;
   margin-right: 50px;
   margin-bottom: 20px;
   @media (min-width : 600px){
-    margin-bottom: 70px;
+    margin-bottom: 50px;
   }
   p {
+    font-size: 120%;
     margin: 0;
   }
 }
@@ -75,4 +76,20 @@
 .video {
   margin: 0 auto;
   max-width: 800px;
+  iframe {
+    height: 225px;
+    margin: 0 5%;
+    width: 90%;
+  }
+  @media (min-width : 600px){
+    iframe {
+      height: 450px;
+    }
+  }
+  @media (min-width : 820px){
+    iframe {
+      margin: 0;
+      width: 100%;
+    }
+  }
 }

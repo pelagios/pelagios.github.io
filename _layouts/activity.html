@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="breadcrumb">
-  <a href="/activities">Activities</a><span> > </span>
+  <a href="/activities">Activities</a><span>&#8202;&mdash; </span>
 </div>
 <div class="activity">
   <div class="main-image"><img src="{{ page.image }}"/></div>
@@ -17,10 +17,11 @@ layout: default
 {% for case-study in site.case-studies %}
   {% if case-study.category contains page.category.first %}
     <div class="case-study">
-      <img src="{{ case-study.image }}" width="180" / >
-      <h2>{{ case-study.title }}</h2>
-      {{ case-study.excerpt }}
-      <a href="{{ case-study.url }}">Read more </a>
+      <a href="{{ case-study.url }}">
+        <img src="{{ case-study.image }}" width="180" / >
+        <h2>{{ case-study.title }}</h2>
+        {{ case-study.excerpt }}
+      </a>
     </div>
   {% endif %}
 {% endfor %}

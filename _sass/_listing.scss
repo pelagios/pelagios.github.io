@@ -3,9 +3,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   .activity--teaser {
-    max-width: 30%;
     img {
-      background: $light-grey;
       height: 115px;
     }
   }
@@ -29,11 +27,9 @@
     }
     img {
       height: 115px;
-      background: $light-grey;
     }
     h3 {
       font-size: 17px;
-      letter-spacing: -0.5px;
       line-height: 15px;
       margin-bottom: 10px;
     }
@@ -42,4 +38,27 @@
       line-height: 1.2;
       margin-top: 0;
     }
+}
+
+.activities--teaser {
+  float: left;
+  margin: 30px 0;
+  max-width: 300px;
+}
+
+.activity--case-studies, .activities--teaser  {
+  a {
+    display: block;
+    text-decoration: none;
+    &:hover {
+      p, img {
+        color: initial;
+        opacity: 0.8;;
+      }
+    }
+  }
+  p {
+    font-size: 15px;
+    margin-top: -10px;
+  }
 }

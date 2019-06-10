@@ -6,25 +6,27 @@
 .page--type-activities {
   .constrained.container {
     @media (min-width: 600px){
+      float: left;
       padding-left: 30%;
-      width: 70%;
+      width: 68%;
       .main-image {
-          margin-left:  -30%;
+          margin-left:  -28%;
           position: absolute;
           padding-right: 30px;
-          width: 27%;
+          width: 25%;
       }
     }
     @media (min-width: 800px){
+      float: initial;
       padding-left: $content-column-width;
       max-width: $content-column-width-large;
       .main-image {
-          margin-left:  -$content-column-width;
+          margin-left:  -220px;
           width: 170px;
       }
     }
     .main-image {
-      margin-top: 10px;
+      margin-top: -33px;
       img {
         width: 100%;
       }

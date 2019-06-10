@@ -6,7 +6,7 @@ activity-coordinator1:
 activity-coordinator2:
 activity-email: annotation@pelagios.org
 excerpt_separator: <!--more-->
-image:
+image: /assets/images/logocircle.svg
 
 ---
 Provides resources and a community for using open data to link and explore historical places. <!--more-->

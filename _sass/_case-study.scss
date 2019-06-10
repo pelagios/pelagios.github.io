@@ -143,18 +143,24 @@
 .case-study--teaser:nth-of-type(6){
   margin-top: 80px;
 }
+
 .case-study--teaser {
   width: 100%;
   img {
     width: 50px;
     height: 50px;
-    border-radius: 50px;
     background: $light-grey;
     float: left;
     margin-right: 20px;
+    margin-bottom: 20px;
   }
   h2 {
+    font-size: 18px;
+    line-height: 35px;
     margin-top: 8px;
+  }
+  a {
+    text-decoration: none;
   }
 }
 
@@ -163,8 +169,7 @@
 
 }
 
-.activities--teaser {
-  float: left;
-  max-width: 300px;
-  margin: 10px;
+.csauth {
+  font-size: $font-size-tiny;
+  font-weight: 600;
 }

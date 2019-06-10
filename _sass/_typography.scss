@@ -47,20 +47,30 @@ body {
 }
 
 h1 {
+  color: $blue--dark;
   font-size: $font-size-x-large;
 }
 h2 {
   font-size: $font-size-large;
+  font-weight: normal;
 }
 h3 {
   font-size: $font-size-medium;
+  font-weight: normal;
 }
 h4 {
   font-size: $font-size-normal;
+  font-weight: normal;
 }
 p {
   font-size: $font-size-normal;
+  line-height: 1.5;
 }
+
+h3+p {
+  margin-top: -15px;
+}
+
 a {
   color: $black;
   &:hover {
@@ -68,13 +78,18 @@ a {
   }
 }
 hr {
-  color: $turquoise;
-  margin: 50px 0;
+  border: 1px solid $turquoise;
+  margin: 40px 0;
 }
 .breadcrumb {
+  color: $turquoise;
   font-size: $font-size-tiny;
   a {
+    color: #444;
     text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 

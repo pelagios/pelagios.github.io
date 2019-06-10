@@ -2,14 +2,14 @@
 layout: default
 ---
 <div class="breadcrumb">
-  <a href="/case-studies">Case Studies</a><span> > </span>
+  <a href="/case-studies">Case Studies</a><span>&#8202;&mdash; </span>
 </div>
 <div class="activity">
   <div class="main-image"><img src="{{ page.image }}"/></div>
   <h1> {{ page.title }} </h1>
 </div>
 
-{{ page.author }}
+<p class="csauth">By {{ page.author }}</p>
 
 <div class="case_study">
   {{ content }}
