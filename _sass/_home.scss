@@ -5,7 +5,7 @@
   float: left;
   margin-right: 50px;
   margin-bottom: 20px;
-  @media (min-width : 600px){
+  @media (min-width : 745px){
     margin-bottom: 50px;
   }
   p {
@@ -17,31 +17,48 @@
   width: 220px;
   float: left;
   a {
-    font-size: 16px;
+    font-size: 15px;
     margin-bottom: 10px;
     padding: 10px 20px 11px 50px;
     position: relative;
   }
+  @media (min-width : 767px) {
+    margin-left: 20px;
+  }
+  @media (min-width : 1400px) {
+    a {
+      font-size: 16px;
+    }
+  }
 }
 
 .cta--home {
-  a:nth-of-type(1) {
+  a.groups {
     background-image: url(/assets/images/icon-chat.svg);
-    background-position: 12px 12px;
+    background-position: 12px 11px;
     background-repeat: no-repeat;
     background-size: 26px;
   }
-  a:nth-of-type(2) {
+  a.blog {
+    background-image: url(/assets/images/icon-medium.svg);
+    background-position: 14px 9px;
+    background-repeat: no-repeat;
+    background-size: 23px;
+  }
+  a.github {
     background-image: url(/assets/images/icon-github.svg);
-    background-position: 13px 4px;
+    background-position: 13px 3px;
     background-repeat: no-repeat;
     background-size: 25px;
   }
-  a:nth-of-type(3) {
+  a.recogito {
     background-image: url(/assets/images/icon-recogito.svg);
-    background-position: 14px 10px;
+    background-position: 14px 9px;
     background-repeat: no-repeat;
     background-size: 24px;
+  }
+  a:last-of-type {
+    margin-bottom: 30px;
   }
 }
 
