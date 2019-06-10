@@ -6,6 +6,10 @@
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+			{% if site.google_analytics and jekyll.environment == 'production' %}
+			{% include analytics.html %}
+			{% endif %}
+
 		</head>
 		<body class="page--{{ pageclass }} page--type-{{ pageclasstype }}" >
 			<header>
