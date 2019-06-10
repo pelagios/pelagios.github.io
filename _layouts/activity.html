@@ -10,19 +10,18 @@ layout: default
   {{ content }}
 </div>
 
-<hr />
 
 <div class="activity--case-studies">
 
 {% for case-study in site.case-studies %}
   {% if case-study.category contains page.category.first %}
-    <div class="case-study">
-      <a href="{{ case-study.url }}">
+    <a href="{{ case-study.url }}">
+      <div class="case-study">
         <img src="{{ case-study.image }}" width="180" / >
         <h2>{{ case-study.title }}</h2>
         {{ case-study.excerpt }}
-      </a>
-    </div>
+      </div>
+    </a>
   {% endif %}
 {% endfor %}
 

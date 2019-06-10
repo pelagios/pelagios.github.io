@@ -58,9 +58,10 @@
     float: left;
     width: calc(100% - 70px);
   }
-  &:last-of-type {
-    margin-bottom: 20px;
-  }
+}
+
+.partner--related:last-of-type {
+  margin-bottom: 20px;
 }
 
 .partner--related {
@@ -70,16 +71,22 @@
   }
 }
 
+
+.activity--coordinator p {
+  margin: 0;
+}
+
 .activity--case-studies {
   img {
     float: right;
-    margin: 0 0 20px 20px;
+    margin: 15px 0 20px 20px;
+    width: 125px;
   }
 }
 
 
-.page--about-us {
+.page--about-us, .page--our-activities {
   .constrained.container {
-    max-width: 660px;
+    max-width: 665px;
   }
 }

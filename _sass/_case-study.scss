@@ -183,8 +183,14 @@
 }
 
 .case-study {
+  background: #f1f1f1;
   margin-bottom: 30px;
-
+  padding: 5px 20px 10px;
+}
+a:hover {
+  .case-study {
+    background: #e7e7e7;
+  }
 }
 
 .csauth {

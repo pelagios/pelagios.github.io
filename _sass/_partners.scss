@@ -1,5 +1,15 @@
 .partner {
-  margin-bottom: 40px;
+  margin: 40px 0;
+
+  
+  h2, p {
+    clear: right;
+    display: -webkit-box;
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+  }
 }
 
 .partner-logo {
@@ -7,6 +17,7 @@
     height: 50px;
     border-radius: 50px;
     background: $light-grey;
+    clear: left;
     float: left;
     margin-right: 20px;
 
