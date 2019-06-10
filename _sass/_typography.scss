@@ -93,6 +93,7 @@ h2 {
   font-size: $font-size-large;
   font-weight: normal;
   @include interpolate(font-size, 400px, 1800px, 22px, 26px);
+  line-height: 1.2;
 }
 h3 {
   font-size: $font-size-medium;

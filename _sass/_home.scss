@@ -19,7 +19,7 @@
   a {
     font-size: 15px;
     margin-bottom: 10px;
-    padding: 10px 20px 11px 50px;
+    padding: 8px 20px 9px 50px;
     position: relative;
   }
   @media (min-width : 767px) {
@@ -35,25 +35,25 @@
 .cta--home {
   a.groups {
     background-image: url(/assets/images/icon-chat.svg);
-    background-position: 12px 11px;
+    background-position: 12px 9px;
     background-repeat: no-repeat;
     background-size: 26px;
   }
   a.blog {
     background-image: url(/assets/images/icon-medium.svg);
-    background-position: 14px 9px;
+    background-position: 14px 7px;
     background-repeat: no-repeat;
     background-size: 23px;
   }
   a.github {
     background-image: url(/assets/images/icon-github.svg);
-    background-position: 13px 3px;
+    background-position: 13px 1px;
     background-repeat: no-repeat;
     background-size: 25px;
   }
   a.recogito {
     background-image: url(/assets/images/icon-recogito.svg);
-    background-position: 14px 9px;
+    background-position: 14px 7px;
     background-repeat: no-repeat;
     background-size: 24px;
   }
