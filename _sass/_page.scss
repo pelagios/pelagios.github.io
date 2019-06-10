@@ -1,3 +1,6 @@
+
+
+
 .constrained.container {
   padding-top: 40px;
 }
@@ -71,5 +74,12 @@
   img {
     float: right;
     margin: 0 0 20px 20px;
+  }
+}
+
+
+.page--about-us {
+  .constrained.container {
+    max-width: 660px;
   }
 }

@@ -1,3 +1,41 @@
+
+
+// Mixin - interpolate :)
+
+@mixin interpolate($properties, $min-screen, $max-screen, $min-value, $max-value) {
+	& {
+		@each $property in $properties {
+			#{$property}: $min-value;
+		}
+
+		@media screen and (min-width: $min-screen) {
+			@each $property in $properties {
+				#{$property}: calc-interpolation($min-screen, $min-value, $max-screen, $max-value); 
+			}
+		}
+
+		@media screen and (min-width: $max-screen) {
+			@each $property in $properties {
+				#{$property}: $max-value;
+			}
+		}
+	}
+}
+
+// Requires the calc-interpolation function which can also be used independently
+
+@function calc-interpolation($min-screen, $min-value, $max-screen, $max-value) {
+	$a: ($max-value - $min-value) / ($max-screen - $min-screen);
+	$b: $min-value - $a * $min-screen; 
+
+	$sign: "+";
+	@if ($b < 0) {
+		$sign: "-";
+		$b: abs($b);
+	}
+	@return calc(#{$a*100}vw #{$sign} #{$b});
+} 
+
 // This is a partial.
 // It lies in <source>/_sass, just waiting to be imported.
 // It does not contain the YAML front matter and has no corresponding output file in the built site.
@@ -49,26 +87,34 @@ body {
 h1 {
   color: $blue--dark;
   font-size: $font-size-x-large;
+  @include interpolate(font-size, 400px, 1800px, 27px, 31px);
 }
 h2 {
   font-size: $font-size-large;
   font-weight: normal;
+  @include interpolate(font-size, 400px, 1800px, 22px, 26px);
 }
 h3 {
   font-size: $font-size-medium;
   font-weight: normal;
+  @include interpolate(font-size, 400px, 1800px, 19px, 23px);
 }
 h4 {
   font-size: $font-size-normal;
-  font-weight: normal;
+  @include interpolate(font-size, 400px, 1800px, 15px, 19px);
 }
-p {
+
+p, .container li {
   font-size: $font-size-normal;
   line-height: 1.5;
+  @include interpolate(font-size, 400px, 1800px, 15px, 19px);
 }
 
 h3+p {
-  margin-top: -15px;
+  margin-top: -12px;
+}
+h4+p {
+  margin-top: -12px;
 }
 
 a {
@@ -97,4 +143,10 @@ p > img {
   width: 180px;
   float: right;
   margin: 0 0 35px 25px;
+}
+
+
+.container li {
+  line-height: 1.4;
+  margin: 0 0 5px 0;
 }
