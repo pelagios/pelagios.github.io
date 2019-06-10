@@ -6,7 +6,7 @@ activity-coordinator1: Leif Isaksen
 activity-coordinator2: Gabriel Bodard
 activity-email: registry@pelagios.org
 category: [registry]
-image: /assets/images/logocircle.svg
+image: /assets/images/Activity_registry.jpg
 
 ---
 
