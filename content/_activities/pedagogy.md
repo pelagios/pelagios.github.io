@@ -1,6 +1,7 @@
 ---
 layout: activity
-name: Pedagogy
+title: Pedagogy
+long-title: Pedagogy and Documentation
 activity-coordinator1: Valeria Vitale
 activity-coordinator2: Gimena del Rio Riande
 activity-email: pedagogy@pelagios.org
