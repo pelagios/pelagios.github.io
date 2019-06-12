@@ -10,4 +10,4 @@ image: /assets/images/Activity_visualisation.jpg
 
 ---
 
-Develops methods and tools which make use of semantic annotation.
+Develops methods and tools which make use of semantic annotation
