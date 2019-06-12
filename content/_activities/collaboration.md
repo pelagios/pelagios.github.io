@@ -10,4 +10,4 @@ image: /assets/images/Activity_collaboration.jpg
 
 ---
 
-Provides space for all Project Partners to share resources and collaborate.
+Provides a forum for all Project Partners to share resources and collaborate.
