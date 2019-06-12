@@ -4,7 +4,7 @@ title: About Us
 permalink: /about-us/
 ---
 
-Pelagios is a long-running initiative that links information online through common references to places. 
+The Pelagios Network is a long-running initiative that links information online through common references to places. 
 To create and maintain these connections, Pelagios has developed: 
 1. a method for creating semantic annotations, based on the W3C Web Annotation standard;
 2. tools and specifications for creating and making use of these annotations, most notably Recogito, an open-source platform for geo-annotating texts, images and databases;
