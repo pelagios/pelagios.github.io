@@ -10,4 +10,4 @@ excerpt_separator: <!--more-->
 image: /assets/images/Actvity_annotation.jpg
 
 ---
-Supports the use of semantic annotation to link and explore historical places and documents. <!--more-->
+Supports the use of semantic annotation to link and explore historical place information <!--more-->
