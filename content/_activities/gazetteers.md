@@ -1,11 +1,11 @@
 ---
 layout: activity
-title: Gazetteer
+title: Gazetteers
 long-title: Gazetteer Alignment
 activity-coordinator1:
 activity-coordinator2:
 activity-email: gazetteers@pelagios.org
-category: [gazetteer]
+category: [gazetteers]
 image: /assets/images/Activity_gazetteer.jpg
 ---
 
