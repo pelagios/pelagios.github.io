@@ -10,4 +10,4 @@ image: /assets/images/Activity_registry.jpg
 
 ---
 
-Tackles the challenges of distributed registration and discovery of semantic annotation
+Establishes services for registering and discovering linked data collections for places
