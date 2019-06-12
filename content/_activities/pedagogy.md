@@ -10,4 +10,4 @@ image: /assets/images/Activity_pedagogy.jpg
 
 ---
 
-Supports the use of linked data in education and cultural heritage.
+Supports the use of linked data in education and cultural heritage
