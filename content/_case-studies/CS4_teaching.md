@@ -2,7 +2,7 @@
 layout: case
 title: Creating an Ottoman Gazetteer
 author: Antonis Hadjikyriacou
-category: [gazetteer, semantic annotation]
+category: [gazetteers, semantic annotation]
 image: /assets/images/cs1.png
 permalink: /case-studies/creating-ottoman-gazetteer/
 ---
