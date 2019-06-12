@@ -7,9 +7,7 @@ activity-coordinator2:
 activity-email: gazetteers@pelagios.org
 category: [gazetteers]
 image: /assets/images/Activity_gazetteer.jpg
+
 ---
 
 Establishes core requirements for global authority files on historic places and their alignment
-
-<img src="/assets/mainimage.jpg"/>
-
