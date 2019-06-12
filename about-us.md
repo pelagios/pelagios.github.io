@@ -11,3 +11,14 @@ Pelagios provides:
 1. a method for creating semantic annotations, based on the W3C Web Annotation standard;
 2. tools and specifications for creating and making use of these annotations, most notably Recogito, an open-source platform for geo-annotating texts, images and databases;
 3. a network of individuals and organizations working with geographic data in humanities disciplines (history, language and literary studies, archaeology, etc.), and cultural heritage (galleries, libraries, archives and museums).
+
+### How Does It Work?
+In order to sustain and further develop work in this area, the Pelagios Network focuses on six core activities, which are: 
+Annotation
+Collaboration
+Gazetteer
+Pedagogy
+Registry
+Visualisation
+
+### How Do I get involved
