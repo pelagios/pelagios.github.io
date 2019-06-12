@@ -10,4 +10,4 @@ image: /assets/images/Activity_registry.jpg
 
 ---
 
-Tackles the challenges of distributed registration and discovery of semantic annotation.
+Tackles the challenges of distributed registration and discovery of semantic annotation
