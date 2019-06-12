@@ -25,4 +25,4 @@ Pelagios is a formal network of equal and independent Partners who coordinate th
 - To become a Partner, individuals and institutions can jointly agree a set of contributions to one or more of the Activities with the Network’s governing Committee, formalised through a Memorandum of Understanding*;
 - To become a Member, simply sign up to the Discussion list.
 
-*MoUs are voluntary, there are no fees or subscriptions, and Partners remain in full control of their own work plans and resources.
+*_MoUs are voluntary, there are no fees or subscriptions, and Partners remain in full control of their own work plans and resources_.
