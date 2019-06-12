@@ -20,7 +20,7 @@ In order to sustain and further develop work in this area, the Pelagios Network 
 - Visualisation
 
 ### How can I get involved?
-Pelagios is a formal network of equal and independent Partners who coordinate their work together, and a wider community of Members who have an interest in the Network and its activities. Partners may nominate Representatives who have a say in the management of an Activity, and can take a lead in its coordination. 
+Pelagios is a formal network of equal and independent Partners who coordinate their work together, and a wider community of Members who have an interest in the Network and its activities. Partners may nominate Representatives who can then have a say in the coordination of an Activity, and can become an Activity Lead. 
 
 - To become a Partner, individuals and institutions can jointly agree a set of contributions to one or more of the Activities with the Network’s governing Committee, formalised through a Memorandum of Understanding*;
 - To become a Member, simply sign up to the Discussion list.
