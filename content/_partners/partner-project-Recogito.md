@@ -3,7 +3,7 @@ layout: default
 title: Recogito
 partner-url: www.recogito.pelagios.org
 category: [ semantic annotation, visualisation ]
-logo:
+logo: /assets/images/partners/Partner_Recogito.jpg
 ---
 
 Use your data in other tools, or connect to other data on the web,
