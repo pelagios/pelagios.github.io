@@ -2,7 +2,7 @@
 layout: case
 title: Bringing damaged documents back to life
 author: Helen Davies & Alexander J. Zawacki, University of Rochester
-category: [visualisation]
+category: [visualisation, collaboration]
 image: /assets/images/cs4.png
 permalink: /case-studies/bringing-damaged-documents-back-to-life/
 ---
