@@ -9,7 +9,7 @@ category: [gazetteer]
 image: /assets/images/Activity_gazetteer.jpg
 ---
 
-Works to foster a diverse and interconnected set of universal place identifiers.
+Fosters a diverse and interconnected set of universal place identifiers
 
 <img src="/assets/mainimage.jpg"/>
 
