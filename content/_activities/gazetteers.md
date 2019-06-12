@@ -9,7 +9,7 @@ category: [gazetteers]
 image: /assets/images/Activity_gazetteer.jpg
 ---
 
-Fosters a diverse and interconnected set of universal place identifiers
+Establishes core requirements for global authority files on historic places and their alignment
 
 <img src="/assets/mainimage.jpg"/>
 
