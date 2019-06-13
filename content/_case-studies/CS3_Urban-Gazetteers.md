@@ -2,7 +2,7 @@
 layout: case
 title: What are urban gazetteers?
 author: Valeria Vitale
-category: [gazetteer]
+category: [gazetteers]
 image: /assets/images/cs3.png
 permalink: /case-studies/what-are-urban-gazetteers/
 ---
