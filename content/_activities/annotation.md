@@ -1,7 +1,7 @@
 ---
 layout: activity
 title: Annotation
-long-title: Semantic Annotation
+long-title: 
 category: [semantic annotation]
 activity-coordinator1:
 activity-coordinator2:
