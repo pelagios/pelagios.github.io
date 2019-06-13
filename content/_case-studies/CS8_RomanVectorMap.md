@@ -2,7 +2,7 @@
 layout: case
 title: Customise maps of ancient Greece and Rome
 author: Petr Pridal
-category: [gazetteer, visualisation]
+category: [gazetteers, visualisation]
 image: /assets/images/CS8_RomanVector.jpeg
 permalink: /case-studies/customise-maps-ancient-greece-rome/
 ---
