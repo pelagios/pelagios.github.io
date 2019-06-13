@@ -2,7 +2,7 @@
 layout: default
 title: AUO Resources as Pelagios GIF
 partner-url: 
-category: [gazetteer, registry]
+category: [gazetteers, registry]
 logo: /assets/images/partners/Partner_AOUResources.jpg
 ---
 
