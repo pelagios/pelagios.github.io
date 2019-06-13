@@ -1,7 +1,7 @@
 ---
 layout: activity
 title: Registry
-long-title: Registry
+long-title: 
 activity-coordinator1: Leif Isaksen
 activity-coordinator2: Gabriel Bodard
 activity-email: registry@pelagios.org
