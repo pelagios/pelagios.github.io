@@ -2,7 +2,7 @@
 layout: default
 title: LOD Methodologies in Gandhāran Buddhist Art and Texts
 partner-url: 
-category: semantic annotation
+category: [semantic annotation, gazetteers]
 logo: /assets/images/partners/Partner_Gandahar.jpg
 ---
 
