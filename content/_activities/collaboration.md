@@ -1,7 +1,7 @@
 ---
 layout: activity
 title: Collaboration
-long-title: 
+long-title: Collaboration
 activity-coordinator1: Rebecca Kahn
 activity-coordinator2: Sarah Bond
 activity-email: collaboration@pelagios.org
