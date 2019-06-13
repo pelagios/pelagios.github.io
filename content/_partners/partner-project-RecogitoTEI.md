@@ -2,7 +2,7 @@
 layout: default
 title: Recogito-TEI
 partner-url:
-category: semantic annotation
+category: [semantic annotation, visualisation]
 logo: /assets/images/partners/Partner_TEI_Recogito.jpg
 ---
 
