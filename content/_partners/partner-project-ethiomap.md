@@ -2,7 +2,7 @@
 layout: default
 title: EthioMap
 partner-url:
-category: [ semantic annotation, visualisation ]
+category: [ semantic annotation, visualisation, pedagogy ]
 logo: /assets/images/partners/Partner_EthioMap.jpg
 ---
 
