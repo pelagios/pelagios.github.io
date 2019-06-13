@@ -2,7 +2,7 @@
 layout: case
 title: Digging into 16th-century Mexico
 author: Patricia Murrieta-Flores & Katherine Bellamy
-category: [annotation, visualisation]
+category: [annotation, visualisation, gazetteers]
 image:  /assets/images/CS7_earlymexico.png
 permalink: /case-studies/digging-into-16thc-mexico/
 ---
