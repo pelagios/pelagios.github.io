@@ -1,7 +1,7 @@
 ---
 layout: activity
 title: Visualisation
-long-title: Visualisation and Analysis
+long-title: 
 activity-coordinator1: Elton Barker
 activity-coordinator2:
 activity-email: visualisation@pelagios.org
