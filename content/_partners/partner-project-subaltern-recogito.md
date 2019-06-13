@@ -2,7 +2,7 @@
 layout: default
 title: Subaltern Recogito
 partner-url: https://www.lancaster.ac.uk/digging-ecm/2019/06/subaltern-recogito
-category: semantic annotation
+category: [semantic annotation, collaboration]
 logo: /assets/images/partners/Partner_Subaltern_Recogito.jpg
 ---
 
