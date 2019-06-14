@@ -19,7 +19,7 @@ layout: default
       <div class="case-study">
         <img src="{{ case-study.image }}" width="180" / >
         <h2>{{ case-study.title }}</h2>
-        {{ case-study.excerpt }}
+        <p>{{ case-study.excerpt | strip_html  }}</p>
       </div>
     </a>
   {% endif %}
