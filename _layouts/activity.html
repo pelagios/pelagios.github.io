@@ -40,7 +40,7 @@ layout: default
         {% if coordinator1.img != nil %}
         <img src="{{ coordinator1.img }}" title="Photo of {{ coordinator1.name }}"/>
         {% endif %}
-        <p>{{ coordinator1.name }}, {{ coordinator1.institution }}</p>
+        <p>{{ coordinator1.name }}, {{ coordinator1.related-project }}</p>
       {% endif %}
     </div>
     <div class="activity--coordinator">
@@ -48,7 +48,7 @@ layout: default
         {% if coordinator2.img != nil %}
         <img src="{{ coordinator2.img }}" title="Photo of {{ coordinator2.name }}"/>
         {% endif %}
-        <p>{{ coordinator2.name }}, {{ coordinator2.institution }}</p>
+        <p>{{ coordinator2.name }}, {{ coordinator2.related-project }}</p>
       {% endif %}
     </div>
     {% endif %}
