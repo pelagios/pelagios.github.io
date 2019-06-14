@@ -40,16 +40,6 @@ footer ul {
       background: $almost-black;
     }
   }
-  ul:nth-of-type(2) {
-    a {
-      background: none;
-      color: $black;
-      padding: 0;
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-  }
 }
 .footer-3 p {
   font-size: $font-size-tiny;
