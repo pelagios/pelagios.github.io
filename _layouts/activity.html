@@ -12,7 +12,7 @@ layout: default
 
 
 <div class="activity--case-studies">
-
+  <!-- We check through the 'case studies' and print content from those whose category matches the current page category -->
 {% for case-study in site.case-studies %}
   {% if case-study.category contains page.category.first %}
     <a href="{{ case-study.url }}">
@@ -60,7 +60,7 @@ layout: default
 
 <div class="activity--partners">
 <h2>Partner Projects</h2>
-
+<!-- We check through the 'partners' and print content from those whose category matches the current page category -->
 {% for partner in site.partners %}
   {% if partner.category contains page.category.first %}
   <div class="partner--related">

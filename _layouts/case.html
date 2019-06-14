@@ -19,13 +19,14 @@ layout: default
 
 {% if page.category != "" %}
 See also:
-{% for category in page.categories %}
-  {% for activity in site.activities %}
-    {% if activity.category contains category %}
-      <div class="related-activity">
-        <a href="{{ activity.url }}"> <span>{{ activity.title }}</span> </a>
-      </div>
-    {% endif %}
+<!-- We check through the page categories and print content from activities whose category matches the current page category -->
+  {% for category in page.categories %}
+    {% for activity in site.activities %}
+      {% if activity.category contains category %}
+        <div class="related-activity">
+          <a href="{{ activity.url }}"> <span>{{ activity.title }}</span> </a>
+        </div>
+        {% endif %}
+    {% endfor %}
   {% endfor %}
-{% endfor %}
 {% endif %}
