@@ -1,12 +1,12 @@
 Elton Barker:
     name: Elton Barker
     email:
-    img:
+    img:/assets/images/people/Elton.jpg
     institution:
 Valeria Vitale:
     name: Valeria Vitale
     email:
-    img:
+    img:/assets/images/people/Valeria.jpg
     institution:
 Gabriel Bodard:
     name: Gabriel Bodard
@@ -16,7 +16,7 @@ Gabriel Bodard:
 Rebecca Kahn:
     name: Rebecca Kahn
     email:
-    img:
+    img:/assets/images/people/Bekka.jpg
     institution:
 Sarah Bond:
     name: Sarah Bond
@@ -31,5 +31,10 @@ Gimena del Rio Riande:
 Leif Isaksen:
     name: Leif Isaksen
     email:
-    img:
+    img:/assets/images/people/Leiff.jpg
+    institution:
+Rainer Simon:
+    name: Rainer Simon
+    email:
+    img:/assets/images/people/Rainer.jpg
     institution:
