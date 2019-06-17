@@ -16,7 +16,7 @@ sass:
   style: compact # possible values: nested expanded compact compressed
 url: "https://pelagios.org" # the base hostname & protocol for your site
 plugins:
-  - jekyll-sitemap
+  -jekyll-sitemap
   defaults:
     -
       scope:
