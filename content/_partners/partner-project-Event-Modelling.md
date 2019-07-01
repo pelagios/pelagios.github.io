@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Archaeological and Historical Event Modelling
-logo: /assets/images/partners/Partner_EventModelling.jpg
+logo: /assets/images/partners/Partner_eventModellingV2.jpg
 partner-url: 
 category: [semantic annotation,visualisation]
 ---
