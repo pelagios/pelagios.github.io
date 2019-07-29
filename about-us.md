@@ -4,9 +4,7 @@ title: About Us
 permalink: /about-us/
 ---
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=MVaFbBvY6bA
-" target="_blank"><img src="http://img.youtube.com/vi/MVaFbBvY6bA/0.jpg" 
-alt="About Us" width="240" height="180" border="10" /></a>
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/MVaFbBvY6bA/0.jpg)](http://www.youtube.com/watch?v=MVaFbBvY6bA)
 
 The Pelagios Network is a long-running initiative that links information online through common references to places. 
 To create and maintain these connections, Pelagios has developed: 
