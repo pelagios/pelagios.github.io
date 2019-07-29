@@ -13,7 +13,8 @@ Check which of our <a href="https://pelagios.org/activities/">Activities</a> bes
 - <a href="https://pelagios.org/activities/registry">Registry</a> - registry@pelagios.org 
 - <a href="https://pelagios.org/activities/visualisation">Visualisation</a> - visualisation@pelagios.org
 
+
 ### To get in touch or follow us:
 - To post questions to or follow news from our community, send a message to our <a href="https://groups.google.com/d/forum/pelagios-announcements">mailing list</a> and join the Pelagios discussion.
 - If your question concerns <a href="https://recogito.pelagios.org/">Recogito</a>, you can [contact](mailto:commons@pelagios.org) us via email.   
-- You can also follow us on [Twitter](https://twitter.com/PelagiosNetwork).
+- You can also follow us on [Twitter](https://twitter.com/PelagiosNetwork) or check out our presentations and tutorials on [YouTube] (https://www.youtube.com/channel/UC6-o6U7HgpFKYhghO_ObrXg).
