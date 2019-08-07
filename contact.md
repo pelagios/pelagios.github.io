@@ -16,6 +16,6 @@ Check which of our <a href="https://pelagios.org/activities/">Activities</a> bes
 
 
 ### To get in touch or follow us
-- You can post questions to or follow news from our community simply by sending a message to our <a href="https://groups.google.com/d/forum/pelagios-announcements">mailing list</a> and join the Pelagios discussion.
+- You can post questions to or follow news from our community simply by sending a message to our <a href="https://groups.google.com/d/forum/pelagios-network">mailing list</a> and join the Pelagios discussion.
 - If your question concerns <a href="https://recogito.pelagios.org/">Recogito</a>, you can [contact](mailto:commons@pelagios.org) us via email.   
 - You can also follow us on [Twitter](https://twitter.com/PelagiosNetwork) or check out our presentations and tutorials on <a href="https://www.youtube.com/channel/UC6-o6U7HgpFKYhghO_ObrXg">YouTube</a>.
