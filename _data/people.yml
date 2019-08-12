@@ -1,10 +1,10 @@
 Elton Barker:
     name: Elton Barker
-    img: /assets/images/people/Elton.jpg
+    img: 
     related-project:
 Valeria Vitale:
     name: Valeria Vitale
-    img: /assets/images/people/Valeria.jpg
+    img: 
     related-project: 
 Gabriel Bodard:
     name: Gabriel Bodard
@@ -12,7 +12,7 @@ Gabriel Bodard:
     related-project:
 Rebecca Kahn:
     name: Rebecca Kahn
-    img: /assets/images/people/Bekka.jpg
+    img: 
     related-project:
 Sarah Bond:
     name: Sarah Bond
@@ -24,11 +24,11 @@ Gimena del Rio Riande:
     related-project:
 Leif Isaksen:
     name: Leif Isaksen
-    img: /assets/images/people/Leiff.jpg
+    img: 
     related-project:
 Rainer Simon:
     name: Rainer Simon
-    img: /assets/images/people/Rainer.jpg
+    img: 
     related-project:
 Chiara Palladino:
     name: Chiara Palladino
