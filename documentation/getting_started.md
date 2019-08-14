@@ -1,15 +1,21 @@
 ## Welcome to the Pelagios Network site
 
 This is a general guide to finding your way around this repository. 
-For information about getting started with Markdown, have a look at the [README](README.md) file. 
+For information about getting started with Markdown, such as how to format the text, have a look at the [README](README.md) file. 
+
+### Why GitHub Pages?
+The Pelagios Network site has been built using GitHub Pages becuase it is a lightweight, easy-to-use tool, which enables decentralised collaboration. And since the Pelagios Network is run by the community, we want to make it as simple as possible for everyone to contribute to the site. If you'd like to learn more about GitHub Pages, [this] (https://pages.github.com/) is a great place to start.
+
+The Activity Coordinators of the Network are responsible for maintaining the 
+
 
 ### Basic Content Arrangement
-Most of the content on the site is kept in the [Content](pelagios.github.io/content/) folder. In here you'll find subfolders labelled:
+Most of the visible content on the site is kept in the [Content](pelagios.github.io/content/) folder. In here you'll find subfolders labelled:
 1. Activities
 2. Case-studies
 3. Partners
 
-In these folders you will be able edit the content that will appear on the relevant pages.
+In these folders you will be able edit the content that will appear on the relevant pages. These pages are all written in Markdown, which is why they have .md extensions in the filenames. 
 
 Images on the site are generally kept in the [Assets](pelagios.github.io/assets/) folder, with a filename that specifies where on the site it is used. 
 
@@ -28,13 +34,13 @@ Partners:
 
 ![Partners](/documentation/Partner_Template.jpg)
 
-The most important item in the templates is the Category field. Categories are listed in square brackets  [ ] and create the link 
+An important item in the templates is the Category field. Categories are listed in square brackets  [ ] and create the link 
 between content in different parts of the site. 
 
 
-### When to use data
-Use data (YAML, JSON, or CSV files in the _data folder_) for site-wide content or other primarily static information that is not otherwise rendered as individual files like documents or pages.
+### Different types of pages
+Not all pages on the site are written in Markdown. 
+Some pages contain data or static information that are used across the site, and that is not otherwise rendered as individual files like documents or pages. In these cases, the files might be configured as YML, JSON or CSV files. In our case, this can be seen in the people.yml file, where the names of individual people are added. This list can be found in the [Data](pelagios.github.io/_data/) folder. This file can be edited in the same way as any other, as long as you follow the template. 
 
-Examples of data might be the site’s authors, or a glossary of terms.
 
-Generally, the distinction between collections and data is that data files do not have a large markdown body, and live in a single file, rather than multiple files. Unlike collections, data files cannot render as individual files.
+
