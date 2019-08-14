@@ -4,9 +4,10 @@ This is a general guide to finding your way around this repository.
 For information about getting started with Markdown, such as how to format the text, have a look at the [README](README.md) file. 
 
 ### Why GitHub Pages?
-The Pelagios Network site has been built using GitHub Pages becuase it is a lightweight, easy-to-use tool, which enables decentralised collaboration. And since the Pelagios Network is run by the community, we want to make it as simple as possible for everyone to contribute to the site. If you'd like to learn more about GitHub Pages, [this] (https://pages.github.com/) is a great place to start.
+The Pelagios Network site has been built using GitHub Pages becuase it is a lightweight, easy-to-use tool, which enables decentralised collaboration. And since the Pelagios Network is run by the community, we want to make it as simple as possible for everyone to contribute to the site. If you'd like to learn more about GitHub Pages, [this](https://pages.github.com/) is a great place to start.
 
-The Activity Coordinators of the Network are responsible for maintaining the 
+### Contributing to the site
+The Activity Coordinators of the Network are responsible for maintaining the pages of each activity.
 
 
 ### Basic Content Arrangement
@@ -20,7 +21,7 @@ In these folders you will be able edit the content that will appear on the relev
 Images on the site are generally kept in the [Assets](pelagios.github.io/assets/) folder, with a filename that specifies where on the site it is used. 
 
 ### The Template
-Most of the site is laid out using a simple template, which can have information added and removed as needs be. Depending on the page topic it will look slightly different every time: 
+The site has been designed in a way that allows information from all of the sections to link easily across the different pages. This is done through the frontmatter in the site template. Most of the site is laid out using this simple template. Depending on the page topic the template will look slightly different every time: 
 
 Activities:
 
