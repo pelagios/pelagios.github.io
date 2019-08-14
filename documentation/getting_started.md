@@ -4,11 +4,11 @@ This is a general guide to finding your way around this repository.
 For information about getting started with Markdown, have a look at the [README](README.md) file. 
 
 ### Basic Content Arrangement
-Most of the content on the site is kept in the [Content](pelagios.github.io/content/) folder. In here you'll find subfolders labelled
+Most of the content on the site is kept in the [Content](pelagios.github.io/content/) folder. In here you'll find subfolders labelled:
 1. Activities
 2. Case-studies
 3. Partners
-...
+
 In these folders you will be able edit the content that will appear on the relevant pages.
 
 Images on the site are generally kept in the [Assets](pelagios.github.io/assets/) folder, with a filename that specifies where on the site it is used. 
