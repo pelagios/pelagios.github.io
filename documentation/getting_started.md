@@ -14,7 +14,7 @@ In these folders you will be able edit the content that will appear on the relev
 Images on the site are generally kept in the [Assets](pelagios.github.io/assets/) folder, with a filename that specifies where on the site it is used. 
 
 ### The Template
-Most of the site is laid out using a simple template, which can have information added and removed as needs be. Depening on the page topic it will look slightly different every time: 
+Most of the site is laid out using a simple template, which can have information added and removed as needs be. Depending on the page topic it will look slightly different every time: 
 
 Activities:
 
