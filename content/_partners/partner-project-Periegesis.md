@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The Digital Periegesis
+title: Digital Periegesis
 partner-url: www.periegesis.org
 category: [semantic annotation, gazetteers, pedagogy, visualisation]
 logo: /assets/images/partners/Partner_periegesis.jpg
