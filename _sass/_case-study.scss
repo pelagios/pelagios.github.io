@@ -8,7 +8,7 @@
   width: 100vw;
   clear: both;
   .case-studies--home {
-    max-width: $content-max-width;
+    max-width: $content-max-width - 200;
     margin-left: auto;
     margin-right: auto;
     padding: 0 2.5%;
