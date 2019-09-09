@@ -1,37 +1,47 @@
-## Welcome to GitHub Pages
+## Welcome to the Pelagios Network site
 
-You can use the [editor on GitHub](https://github.com/msayoung/pelagios.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is a general guide to finding your way around this repository. 
+For information about getting started with Markdown, such as how to format the text, have a look at the [README](README.md) file. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Why GitHub Pages?
+The Pelagios Network site has been built using GitHub Pages becuase it is a lightweight, easy-to-use tool, which enables decentralised collaboration. And since the Pelagios Network is run by the community, we want to make it as simple as possible for everyone to contribute to the site. If you'd like to learn more about GitHub Pages, [this](https://pages.github.com/) is a great place to start.
 
-### Markdown
+### Contributing to the site
+The Activity Coordinators of the Network are responsible for maintaining the pages of each activity.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+### Basic Content Arrangement
+Most of the visible content on the site is kept in the [Content](pelagios.github.io/content/) folder. In here you'll find subfolders labelled:
+1. Activities
+2. Case-studies
+3. Partners
 
-# Header 1
-## Header 2
-### Header 3
+In these folders you will be able edit the content that will appear on the relevant pages. These pages are all written in Markdown, which is why they have .md extensions in the filenames. 
 
-- Bulleted
-- List
+Images on the site are generally kept in the [Assets](pelagios.github.io/assets/) folder, with a filename that specifies where on the site it is used. 
 
-1. Numbered
-2. List
+### The Template
+The site has been designed in a way that allows information from all of the sections to link easily across the different pages. This is done through the frontmatter in the site template. Most of the site is laid out using this simple template. Depending on the page topic the template will look slightly different every time: 
 
-**Bold** and _Italic_ and `Code` text
+Activities:
 
-[Link](url) and ![Image](src)
-```
+![Activities](/documentation/Activity_Template.jpg)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Case Studies:
 
-### Jekyll Themes
+![Case Studies](/documentation/CaseStudy_Template.jpg)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/msayoung/pelagios.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Partners:
 
-### Support or Contact
+![Partners](/documentation/Partner_Template.jpg)
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+An important item in the templates is the Category field. Categories are listed in square brackets  [ ] and create the link 
+between content in different parts of the site. 
+
+
+### Different types of pages
+Not all pages on the site are written in Markdown. 
+Some pages contain data or static information that are used across the site, and that is not otherwise rendered as individual files like documents or pages. In these cases, the files might be configured as YML, JSON or CSV files. In our case, this can be seen in the people.yml file, where the names of individual people are added. This list can be found in the [Data](pelagios.github.io/_data/) folder. This file can be edited in the same way as any other, as long as you follow the template. 
+
+
+
