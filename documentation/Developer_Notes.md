@@ -2,6 +2,20 @@
 
 ## Terminal cheatsheet
 
+Basics
+
+Change directory: 
+```
+$ cd [Directory/subdirectory, case sensitive]
+```
+
+Cancel running tasks: 
+```
+Ctrl + c
+```
+
+### Jekyll/Github-pages specific commands
+
 To deploy the site locally use 
 
 ```
