@@ -1,6 +1,6 @@
 ---
 layout: default
-title: A Framework for Annotation Interoperability
+title: Framework for Annotation Interoperability
 partner-url: 
 category: [collaboration, semantic annotation, visualisation, registry]
 logo: /assets/images/partners/Partner_FAI.jpg
