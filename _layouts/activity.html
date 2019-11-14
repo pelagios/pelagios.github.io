@@ -10,23 +10,6 @@ layout: default
   {{ content }}
 </div>
 
-
-<div class="activity--case-studies">
-  <!-- We check through the 'case studies' and print content from those whose category matches the current page category -->
-{% for case-study in site.case-studies %}
-  {% if case-study.category contains page.category.first %}
-    <a href="{{ case-study.url }}">
-      <div class="case-study">
-        <img src="{{ case-study.image }}" width="180" / >
-        <h2>{{ case-study.title }}</h2>
-        <p>{{ case-study.excerpt | strip_html  }}</p>
-      </div>
-    </a>
-  {% endif %}
-{% endfor %}
-
-</div>
-
 <hr />
 {% assign coordinator1 = site.data.people[page.activity-coordinator1] %}
 {% assign coordinator2 = site.data.people[page.activity-coordinator2] %}
@@ -56,6 +39,23 @@ layout: default
   </div>
 
 <hr />
+
+<div class="activity--case-studies">
+  <!-- We check through the 'case studies' and print content from those whose category matches the current page category -->
+{% for case-study in site.case-studies %}
+  {% if case-study.category contains page.category.first %}
+    <a href="{{ case-study.url }}">
+      <div class="case-study">
+        <img src="{{ case-study.image }}" width="180" / >
+        <h2>{{ case-study.title }}</h2>
+        <p>{{ case-study.excerpt | strip_html  }}</p>
+      </div>
+    </a>
+  {% endif %}
+{% endfor %}
+
+</div>
+
 
 
 <div class="activity--partners">
