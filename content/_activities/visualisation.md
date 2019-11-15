@@ -7,8 +7,9 @@ activity-coordinator2: Gethin Rees
 activity-email: visualisation@pelagios.org
 category: [visualisation]
 image: /assets/images/Activity_visualisation.jpg
-charter: /assets/charters/Copy of PA Visualisation & Analysis Activity Charter.pdf
+charter: /assets/charters/Visualisation.pdf
 
 ---
 
-Supports the development of tools and methods for visualising geospatial information
+Supports the development of tools and methods for visualising geospatial information. 
+
