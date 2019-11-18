@@ -11,3 +11,6 @@ image: /assets/images/Activity_registry.jpg
 ---
 
 Establishes services for registering and discovering linked data collections for places
+
+See out Activity Charter <a href="https://docs.google.com/document/d/1f68dVAP3-vXQX9onc7lHCQO4o0KbNne_rg1cRMlsi7A/edit">here</a>
+
