@@ -5,7 +5,7 @@ permalink: /contact-us/
 ---
 
 ### To become a Partner
-Check which of our <a href="https://pelagios.org/activities/">Activities</a> best aligns with your work and your interests, and simply email the relevant Activity Coordinator(s) to discuss your application:  
+Check which of our <a href="https://pelagios.org/activities/">Activities</a> best aligns with your work and your interests. Then send an email to the relevant Activity Coordinator(s) and the [Partnership Secertary](mailto:collaboration@pelagios.org) to begin the process:
 - <a href="https://pelagios.org/activities/annotation">Annotation</a> - annotation@pelagios.org  
 - <a href="https://pelagios.org/activities/collaboration">Collaboration</a> - collaboration@pelagios.org  
 - <a href="https://pelagios.org/activities/gazetteers">Gazetteers</a> - gazetteers@pelagios.org 
