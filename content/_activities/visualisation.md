@@ -11,7 +11,7 @@ charter: /assets/charters/Visualisation.pdf
 
 ---
 
-Supports the development of tools and methods for visualising geospatial information. 
+Supports the development of tools and methods for visualising geospatial information 
 
 The purpose of the Visualisation Activity is to support developers and end-users in conceptualising and developing methods and tools for:
 - **visualisation**, such as showing the geographic scope of a dataset, or representing a spatial network;
