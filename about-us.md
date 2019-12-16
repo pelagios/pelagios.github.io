@@ -24,7 +24,7 @@ In order to sustain and further develop work in this area, the Pelagios Network 
 - <a href="https://pelagios.github.io/activities/visualisation/">Visualisation</a> which develops methods and tools which make use of semantic annotation.
 
 ### How can I get involved?
-Pelagios is a formal Network of equal and independent <a href="https://pelagios.org/partners/">**Partners**</a> who coordinate their work together, and a wider community of **Members** who have an interest in the Network's outputs. Overall coordination of the Network is handled by the officer sof the NetworkPartners may nominate Representatives who can then have a say in the coordination of an Activity, and can become an Activity Coordinator. 
+Pelagios is a formal Network of equal and independent <a href="https://pelagios.org/partners/">**Partners**</a> who coordinate their work together, and a wider community of **Members** who have an interest in the Network's outputs. Overall coordination of the Network is handled by the officers of the Network. Partners may nominate Representatives who can then have a say in the coordination of an Activity, and can become an Activity Coordinator. 
 
 - To become a Partner, individuals and institutions can jointly agree a set of contributions to one or more of the Activities with the Network’s governing Committee, formalised through a Memorandum of Understanding. There are no fees or subscriptions, and Partners remain in full control of their own work plans and resources.
 - We invite any prospective Partners to get in touch with us and begin disuccing an MoU by sending an email to the [Partnership Secretary](mailto:collaboration@pelagios.org)
