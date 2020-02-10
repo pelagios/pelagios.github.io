@@ -3,7 +3,7 @@ layout: default
 title: Black Death Digital Archive
 partner-url: www.globalmiddleages.org/project/black-death-digital-archive-project
 category: [semantic annotation, gazetteers, visualisation, pedagogy]
-logo: assets/images/partners/partner_black_death.jpg
+logo: /assets/images/partners/partner_black_death.jpg
 ---
 
 The Black Death Digital Archive (BDDA) is a multidisciplinary portal for researching the Second Plague Pandemic, 
