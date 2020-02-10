@@ -14,6 +14,7 @@ permalink: /partners/
 {% for partner in sorted_partners %}
 <div class="partner">
   {% if partner.partner-url != nil %}
+  
   <a href="http://{{ partner.partner-url }}">
     {% if partner.logo != nil %}
       <img class="partner-logo" src="{{ partner.logo }}"  />
@@ -24,6 +25,9 @@ permalink: /partners/
     {% else %}
     {% if partner.logo != nil %}
     <img class="partner-logo" src="{{ partner.logo }}"  />
+  {% endif %}
+    <h2>{{ partner.title }}</h2>
+    <p>{{ partner.content }}</p>
   {% endif %}
  </div>
 {% endfor %}
