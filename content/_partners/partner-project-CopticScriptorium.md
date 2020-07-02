@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Coptic Scriptorium
-partner-url: https://copticscriptorium.org/
+partner-url: www.copticscriptorium.org/
 category: [annotation, collaboration]
 logo: assets/images/partners/Partner_CopticScriptorium.jpg
 ---
