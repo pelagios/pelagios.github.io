@@ -11,7 +11,8 @@ Check which of our <a href="https://pelagios.org/activities/">Activities</a> bes
 - <a href="https://pelagios.org/activities/gazetteers">Gazetteers</a> - gazetteers@pelagios.org 
 - <a href="https://pelagios.org/activities/pedagogy">Pedagogy</a> - pedagogy@pelagios.org  
 - <a href="https://pelagios.org/activities/registry">Registry</a> - registry@pelagios.org 
-- <a href="https://pelagios.org/activities/visualisation">Visualisation</a> - visualisation@pelagios.org
+- <a href="https://pelagios.org/activities/visualisation">Visualisation</a> - visualisation@pelagios.org  
+If you wish to contact the Chair, General Secretary or the Partnership Secretary, you can send an email to the [Officers](mailto:officers@pelagios.org)
 
 
 
