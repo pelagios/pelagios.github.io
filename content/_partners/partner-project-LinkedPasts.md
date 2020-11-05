@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Linked Pasts
-partner-url: www.ics.sas.ac.uk/events/linked-pasts-6
+partner-url: http://www.ics.sas.ac.uk/events/linked-pasts-6
 category: [pedagogy, collaboration]
 logo: /assets/images/partners/Pelagios-circle-only.jpg
 ---
