@@ -32,7 +32,7 @@ In order to sustain and further develop work in this area, the Pelagios Network 
 Pelagios is a formal Network of equal and independent <a href="https://pelagios.org/partners/">**Partners**</a> who coordinate their work together, and a wider community of **Members** who have an interest in the Network's outputs. Overall coordination of the Network is handled by the officers of the Network. Partners may nominate Representatives who can then have a say in the coordination of an Activity, and can become an Activity Coordinator. 
 
 - To become a Partner, individuals and institutions can jointly agree a set of contributions to one or more of the Activities with the Network’s governing Committee, formalised through a Memorandum of Understanding. There are no fees or subscriptions, and Partners remain in full control of their own work plans and resources.
-- We invite any prospective Partners to get in touch with us and begin disuccing an <a href="assets/templates/MoUTemplate.pdf" class="image fit"><img src="images/marr_pic.jpg" alt="">MoU</a>
+- We invite any prospective Partners to get in touch with us and begin discussing an <a href="https://github.com/pelagios/pelagios.github.io/blob/dc6e4bd5af6eca079b67ca3f5b95dc5bf3b5eba9/assets/templates/MoUTemplate.pdf/">MoU</a>
  by sending an email to the [Partnership Secretary](mailto:collaboration@pelagios.org)
 - To become a Member, simply sign up to the <a href="https://groups.google.com/d/forum/pelagios-network/">Discussion</a> list.
 
