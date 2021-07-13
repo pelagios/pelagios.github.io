@@ -3,6 +3,7 @@ layout: activity
 title: Annotation
 long-title: Annotation
 activity-coordinator1: Virginia Boyero
+activity-coordinator2: 
 activity-email: annotation@pelagios.org
 category: [semantic annotation]
 image: /assets/images/Actvity_annotation.jpg
