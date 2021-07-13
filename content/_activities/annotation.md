@@ -2,8 +2,7 @@
 layout: activity
 title: Annotation
 long-title: Annotation
-activity-coordinator1: Chiara Palladino
-activity-coordinator2: Rainer Simon
+activity-coordinator1: Virginia Boyero
 activity-email: annotation@pelagios.org
 category: [semantic annotation]
 image: /assets/images/Actvity_annotation.jpg
