@@ -1,3 +1,4 @@
+---
 layout: default
 title: nodegoat
 partner-url: https://nodegoat.net
