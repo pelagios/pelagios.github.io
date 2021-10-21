@@ -4,7 +4,7 @@ This is a general guide to finding your way around this repository.
 For information about getting started with Markdown, such as how to format the text, have a look at the [README](README.md) file. 
 
 ### Why GitHub Pages?
-The Pelagios Network site has been built using GitHub Pages becuase it is a lightweight, easy-to-use tool, which enables decentralised collaboration. And since the Pelagios Network is run by the community, we want to make it as simple as possible for everyone to contribute to the site. If you'd like to learn more about GitHub Pages, [this](https://pages.github.com/) is a great place to start.
+The Pelagios Network site has been built using GitHub Pages because it is a lightweight, easy-to-use tool, which enables decentralised collaboration. And since the Pelagios Network is run by the community, we want to make it as simple as possible for everyone to contribute to the site. If you'd like to learn more about GitHub Pages, [this](https://pages.github.com/) is a great place to start.
 
 ### Contributing to the site
 The Activity Coordinators of the Network are responsible for maintaining the pages of each activity.
