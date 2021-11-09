@@ -7,7 +7,7 @@ activity-coordinator2: Stephen Gadd
 activity-email: visualisation@pelagios.org
 category: [visualisation]
 image: /assets/images/Activity_visualisation.jpg
-charter: /assets/charters/Visualisation.pdf
+charter: /assets/charters/Visualisation_ v4.pdf
 
 ---
 
