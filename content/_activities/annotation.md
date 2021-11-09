@@ -2,8 +2,8 @@
 layout: activity
 title: Annotation
 long-title: Annotation
-activity-coordinator1: Anne Chen
-activity-coordinator2: Elton Barker
+activity-coordinator1: Elton Barker 
+activity-coordinator2: Anne Chen
 activity-email: annotation@pelagios.org
 category: [semantic annotation]
 image: /assets/images/Actvity_annotation.jpg
