@@ -18,5 +18,5 @@ The purpose of the Visualisation Activity is to support developers and end-users
 - **discovery**, including the search and retrieval of data from across the collective of Partners, using filters that include period, data type, geographic location, and source; and
 - **analysis**, by leveraging the outcome of linked data to stimulate new research questions and provide new insights. 
 
-For more details, see our Activity Charter <a href="https://docs.google.com/document/d/12uM7OxV6iOGZN0_YTaMloiHIGxH5AziAtNGcbpGi30M/edit">here</a>
+For more details, see our Activity Charter <a href="https://docs.google.com/document/d/1auz-efYqWhhIZiNC05W1mvE3awdhcnu-7qb4VfkOfCc/edit?usp=sharing">here</a>
 
