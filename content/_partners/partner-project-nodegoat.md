@@ -1,7 +1,7 @@
 ---
 layout: default
 title: nodegoat
-partner-url: https://nodegoat.net
+partner-url: nodegoat.net
 category: [collaboration, gazetteers]
 logo: /assets/images/partners/Partner_nodegoat.png
 ---
