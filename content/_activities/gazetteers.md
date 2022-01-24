@@ -2,7 +2,7 @@
 layout: activity
 title: Gazetteers
 long-title: Gazetteers
-activity-coordinator1: Karl Grossner
+activity-coordinator1: Tom Gheldof
 activity-coordinator2: Wolfgang Schmidle
 activity-email: gazetteers@pelagios.org
 category: [gazetteers]
