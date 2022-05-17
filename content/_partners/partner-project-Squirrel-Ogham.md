@@ -2,7 +2,7 @@
 layout: default
 title: Research Squirrel Engineers Network - Linked Open Ogham
 partner-url: http://ogham.link
-category: [annotation,collaboration]
+category: [semantic annotation,collaboration]
 logo: /assets/images/partners/Partner_Squirrel_Ogham.png
 ---
 
