@@ -2,7 +2,7 @@
 layout: default
 title: Research Squirrel Engineers Network - SPARQLing Unicorn QGIS Plugin
 partner-url: https://plugins.qgis.org/plugins/sparqlunicorn
-category: [annotation,collaboration]
+category: [semantic annotation,collaboration]
 logo: /assets/images/partners/Partner_Squirrel_SPARQLUnicorn.png
 ---
 
