@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Topos Text
-partner-url: www.topostext.org/
+partner-url: https://topostext.org/
 category: [semantic annotation, gazetteers, pedagogy]
 logo: /assets/images/partners/Pelagios-circle-only.jpg
 ---

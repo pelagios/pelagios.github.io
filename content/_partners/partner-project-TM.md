@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Trismegistos
-partner-url: www.trismegistos.org
+partner-url: https://www.trismegistos.org/
 category: [collaboration and networking, gazetteers, registry]
 logo: /assets/images/partners/Partner_TM.jpg
 ---

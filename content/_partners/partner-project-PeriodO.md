@@ -1,7 +1,7 @@
 ---
 layout: default
 title: PeriodO
-partner-url: perio.do
+partner-url: https://perio.do/
 category: [ collaboration, gazetteers, visualisation, semantic annotation ]
 logo: /assets/images/partners/Partner_PeriodO.png
 ---

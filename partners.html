@@ -4,7 +4,9 @@ title: Partners
 permalink: /partners/
 ---
 
-<p>Pelagios is a formal network of equal and independent Partners who coordinate their work together. To become a Partner, all institutions, projects and/or individuals have to do is to agree to contribute to ongoing work that falls under the aegis of one or more of the Network's <a href="https://pelagios.org/activities/">Activities</a>. Partnerships are defined by a Memorandum of Understanding, a non-legally binding document in which the prospective Partner outlines their contribution in consultation with the Network.</p>
+<p>Pelagios is a formal network of equal and independent Partners who coordinate their work together. To become a Partner, all institutions, projects and/or individuals have to do is to agree to contribute to ongoing work that falls under the aegis
+    of one or more of the Network's <a href="https://pelagios.org/activities/">Activities</a>. Partnerships are defined by a Memorandum of Understanding, a non-legally binding document in which the prospective Partner outlines their contribution in
+    consultation with the Network.</p>
 <p>To discuss becoming a Partner of the Pelagios Network, simply get in touch with the coordinators of the relevant Activity via our <a href="https://pelagios.org/contact-us/">Contact page</a>.</p>
 
 <hr />
@@ -13,21 +15,21 @@ permalink: /partners/
 
 {% for partner in sorted_partners %}
 <div class="partner">
-  {% if partner.partner-url != nil %}
-  
-  <a href="http://{{ partner.partner-url }}">
-    {% if partner.logo != nil %}
-      <img class="partner-logo" src="{{ partner.logo }}"  />
-    {% endif %}
-      <h2>{{ partner.title }}</h2>
-      <p>{{ partner.content }}</p>
+    {% if partner.partner-url != nil %}
+
+    <a href="{{ partner.partner-url }}">
+        {% if partner.logo != nil %}
+        <img class="partner-logo" src="{{ partner.logo }}" />
+        {% endif %}
+        <h2>{{ partner.title }}</h2>
+        <p>{{ partner.content }}</p>
     </a>
     {% else %}
     {% if partner.logo != nil %}
-    <img class="partner-logo" src="{{ partner.logo }}"  />
-  {% endif %}
+    <img class="partner-logo" src="{{ partner.logo }}" />
+    {% endif %}
     <h2>{{ partner.title }}</h2>
     <p>{{ partner.content }}</p>
-  {% endif %}
- </div>
+    {% endif %}
+</div>
 {% endfor %}
