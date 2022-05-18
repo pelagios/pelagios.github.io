@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Performant Software Solutions
-partner-url: performantsoftware.com
+partner-url: https://www.performantsoftware.com/
 category: [ collaboration, gazetteers, semantic annotation ]
 logo: /assets/images/partners/Partner_Performant.png
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Epigraphic Database Heidelberg
-partner-url: edh-www.adw.uni-heidelberg.de/home
+partner-url: https://edh.ub.uni-heidelberg.de
 category: [gazetteers, semantic annotation,visualisation]
 logo: /assets/images/partners/Pelagios-circle-only.jpg
 ---

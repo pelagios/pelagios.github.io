@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Manar al-Athar Photo-Archive
-partner-url: www.manar-al-athar.ox.ac.uk
+partner-url: https://www.manar-al-athar.ox.ac.uk/
 category: [semantic annotation]
 logo: /assets/images/partners/Partner_Manar_al-Athar.png
 ---
