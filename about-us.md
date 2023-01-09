@@ -16,9 +16,9 @@ To create and maintain these connections, Pelagios has developed:
 The Pelagios Network is governed by a Committee that meets (virtually) each month. The Committee is comprised of 12 Activity Leads (2 for each Activity), plus one Representative for each Partner. Activity Leads report on the work of an Activity twice each year and can vote on any matter. Representatives are able to vote on matters relating the Activities the Partner contributes to. The coordination of the Committee is managed by three officers: a Chair, a General Secretary and a Partnership Secretary. 
 The current office holders are:  
 
-**Chair**: Valeria Vitale  
-**General Secretary**: Elton Barker  
-**Partnership Secretary**: Rebecca Kahn  
+**Chair**: Anne Chen  
+**General Secretary**: Gethin Rees  
+**Partnership Secretary**: Elton Barker  
 
 In order to sustain and further develop work in this area, the Pelagios Network focuses on six core Activities, which are: 
 - <a href="https://pelagios.github.io/activities/annotation/">Annotation</a>, which supports the use of semantic annotation to link and explore historical place information; 
