@@ -3,7 +3,7 @@ layout: activity
 title: Registry
 long-title: Registry
 activity-coordinator1: Leif Isaksen
-activity-coordinator2: 
+activity-coordinator2: Pascal Belouin
 activity-email: registry@pelagios.org
 category: [registry]
 image: /assets/images/Activity_registry.jpg
