@@ -4,7 +4,7 @@ title: About Us
 permalink: /about-us/
 ---
 
-![Pelagios network inforgraphic](https://user-images.githubusercontent.com/12121805/211359553-39a88793-44af-4a2f-b9b8-51408ed29037.jpg)
+[![Pelagios network inforgraphic](https://user-images.githubusercontent.com/12121805/211359553-39a88793-44af-4a2f-b9b8-51408ed29037.jpg)](https://user-images.githubusercontent.com/12121805/211359553-39a88793-44af-4a2f-b9b8-51408ed29037.jpg)
 
 
 The Pelagios Network is a long-running initiative that links information online through common references to places. 
