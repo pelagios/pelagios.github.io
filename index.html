@@ -19,29 +19,15 @@ title: Welcome to Pelagios Network
 
 
 <div class="case-studies--home-wrapper">
-	<div class="case-studies--home">
-	{% for case-study in site.case-studies limit:5 %}
-		<div class="case-study--teaser">
-			<a href={{ case-study.url }}>
-				<img src="{{ case-study.image }}" width="400px">
-				<div class="case-study--title">
-					<h2>{{ case-study.title }} </h2>
-				</div>
-			</a>
+	<div id="video-container">
+		<div class="video">
+			<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MVaFbBvY6bA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<a href="https://www.wearecognitive.com">This whiteboard animation was made by Cognitive</a>
 		</div>
-  {% endfor %}
-	</div>
-	<div class="morecs">
-		<a href="/case-studies">See all case studies</a>
 	</div>
 </div>
 
-<div id="video-container">
-	<div class="video">
-		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MVaFbBvY6bA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<a href="https://www.wearecognitive.com">This whiteboard animation was made by Cognitive</a>
-	</div>
-</div>
+
 
 <div class="activities--home">
 	<h2>The activities of the Pelagios network</h2>
