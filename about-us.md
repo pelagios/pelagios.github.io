@@ -37,3 +37,5 @@ Pelagios is a formal Network of equal and independent <a href="https://pelagios.
  by sending an email to the [Partnership Secretary](mailto:collaboration@pelagios.org)
 - To become a Member, simply sign up to the <a href="https://groups.google.com/d/forum/pelagios-network/">Discussion</a> list.
 
+Image credit: [Karl Grossner](https://medium.com/pelagios/from-linking-places-to-a-linked-pasts-network-ebc974f5b342)
+
