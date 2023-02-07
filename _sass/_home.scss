@@ -13,6 +13,14 @@
     margin: 0;
   }
 }
+.blurb--home {
+  a.blurb {
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding: 8px 15px 9px 45px;
+    position: relative;
+  }
+}
 .cta--home {
   width: 220px;
   float: left;
