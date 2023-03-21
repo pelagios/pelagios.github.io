@@ -5,8 +5,8 @@ long-title: People
 activity-coordinator1: 
 activity-coordinator2: 
 activity-email: 
-category: [collaboration]
-image: /assets/images/Activity_collaboration.jpg
+category: [people]
+image: /assets/images/Activity_people.jpg
 
 ---
 
