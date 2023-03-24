@@ -3,7 +3,7 @@ layout: activity
 title: Gazetteers
 long-title: Gazetteers
 activity-coordinator1: Tom Gheldof
-activity-coordinator2: 
+activity-coordinator2: Valeria Vitale
 activity-email: gazetteers@pelagios.org
 category: [gazetteers]
 image: /assets/images/Activity_gazetteer.jpg
