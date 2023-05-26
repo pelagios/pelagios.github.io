@@ -16,15 +16,6 @@ To become a Partner:
 
 To become a Member, simply sign up to the <a href="https://groups.google.com/d/forum/pelagios-network/">Discussion</a> list.
 
-Check which of our <a href="https://pelagios.org/activities/">Activities</a> best aligns with your work and your interests. Then send an email to the relevant Activity Coordinator(s) and the [Partnership Secretary](mailto:collaboration@pelagios.org) to begin the process:
-- <a href="https://pelagios.org/activities/annotation">Annotation</a> - annotation@pelagios.org  
-- <a href="https://pelagios.org/activities/gazetteers">Gazetteers</a> - gazetteers@pelagios.org 
-- <a href="https://pelagios.org/activities/registry">Registry</a> - registry@pelagios.org
-- <a href="https://pelagios.org/activities/time">Time</a> - 
-- <a href="https://pelagios.org/activities/visualisation">Visualisation</a> - visualisation@pelagios.org  
-
-If you wish to contact the Chair, General Secretary or the Partnership Secretary, you can send an email to the [Officers](mailto:officers@pelagios.org)
-
 ### To get in touch or follow us
 - You can post questions to or follow news from our community simply by sending a message to our <a href="https://groups.google.com/d/forum/pelagios-network">mailing list</a> and join the Pelagios discussion.
 - If your question concerns <a href="https://recogito.pelagios.org/">Recogito</a> or <a href="https://github.com/britishlibrary/peripleo">Peripleo</a>, you can contact the Officers via email (officers@pelagios.org).
