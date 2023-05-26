@@ -18,6 +18,7 @@ permalink: /activities/
 		  <img src="{{ activity.image }}"/>
       <h2>{{ activity.title }}</h2>
 	    <p>{{ activity.excerpt | strip_html }}</p>
+	<p>{{ activity.activity-email | strip_html }}</p>
 	  </a>
 	</div>
  	{% endfor %}
