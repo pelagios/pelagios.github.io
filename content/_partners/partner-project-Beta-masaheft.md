@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Beta maṣāḥǝft Manuscripts of Ethiopia and Eritrea
-partner-url: www.betamasaheft.uni-hamburg.de
+partner-url: https://www.betamasaheft.uni-hamburg.de
 category: [gazetteers, registry, pedagogy]
 logo: /assets/images/partners/Pelagios-circle-only.jpg
 ---
