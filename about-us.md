@@ -7,14 +7,10 @@ permalink: /about-us/
 [![Pelagios network inforgraphic](https://user-images.githubusercontent.com/12121805/211359553-39a88793-44af-4a2f-b9b8-51408ed29037.jpg)](https://user-images.githubusercontent.com/12121805/211359553-39a88793-44af-4a2f-b9b8-51408ed29037.jpg)
 
 
-The Pelagios Network is a long-running initiative that links information online through common references to places and time periods. To create and maintain these connections, Pelagios has developed:
-- a method for creating semantic annotations, based on the <a href="https://www.w3.org/TR/annotation-model">W3C Web Annotation standard</a>;
-specifications for describing the attestations of places in a standard way (<a href="https://github.com/LinkedPasts/linked-places-format">Linked Places</a>) and linking resources describing historical phenomena with the places relevant to them (<a href="https://github.com/LinkedPasts/linked-traces-format">Linked Traces</a>);
-- open source tools including <a href="https://recogito.pelagios.org/">Recogito</a>, an open-source platform for geo-annotating texts, images and databases; and <a href="https://github.com/britishlibrary/peripleo">Peripleo</a> a browser-based tool for visualizing and searching geo-annotated data;
-- a community of individuals and organizations working with geographic data in humanities disciplines (history, language and literary studies, archaeology, etc.), and cultural heritage (galleries, libraries, archives and museums).
+​​The Pelagios Network is a long-running initiative that links information online through common references to places, and more recently through time periods and people. Pelagios represents a community of individuals, projects and organizations working with historical data. Part of its work in evolving the LOD ecosystem is developing open methods and tools.
 
 ### How does it work?
-The Pelagios Network is a free and open association of equal and independent Partners, each of whom are working within the space of humanities and cultural heritage Linked Open Data. 
+The Pelagios Network is a free and open association of equal and interdependent Partners. These Partners represent a range of work being carried out across the humanities (history, language and literary studies, archaeology, etc.), and cultural heritage (galleries, libraries, archives and museums).
 
 In order to further develop work in this area, the Pelagios Network focuses on core Activities in the following areas:
 - <a href="https://pelagios.github.io/activities/annotation/">Annotation</a>, which supports the use of semantic annotation to link and explore historical place information;
