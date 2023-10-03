@@ -4,10 +4,7 @@ title: About Us
 permalink: /about-us/
 ---
 
-[![Pelagios network inforgraphic](https://user-images.githubusercontent.com/12121805/211359553-39a88793-44af-4a2f-b9b8-51408ed29037.jpg)](https://user-images.githubusercontent.com/12121805/211359553-39a88793-44af-4a2f-b9b8-51408ed29037.jpg)
-
-
-​​The Pelagios Network is a long-running initiative that links information online through common references to places, and more recently through time periods and people. Pelagios represents a community of individuals, projects and organizations working with historical data. Part of its work in evolving the LOD ecosystem is developing open methods and tools.
+The Pelagios Network is a long-running initiative that links information online through common references to places, and more recently through time periods and people. Pelagios represents a community of individuals, projects and organizations working with historical data. Part of its work in evolving the LOD ecosystem is developing open methods and tools.
 
 ### How does it work?
 The Pelagios Network is a free and open association of equal and interdependent Partners. These Partners represent a range of work being carried out across the humanities (history, language and literary studies, archaeology, etc.), and cultural heritage (galleries, libraries, archives and museums).
@@ -18,6 +15,7 @@ In order to further develop work in this area, the Pelagios Network focuses on c
 - <a href="https://pelagios.github.io/activities/registry/">Registry</a>, which establishes services for registering and discovering linked data collections for places;
 - <a href="https://pelagios.org/activities/time/">Time</a>, which finds consensus on the representation of historical time in structured data;
 - <a href="https://pelagios.github.io/activities/visualisation/">Visualisation</a>, which develops methods and tools which make use of semantic annotation.
+- <a href="https://pelagios.github.io/activities/people/">People</a>.
 
 Each Activity meets roughly every other month, to address issues and challenges related to the particular focus area. Meetings involve:
 - hearing from partners, sharing and developing good practice, and offering consultancy;
@@ -35,5 +33,3 @@ The current office holders are:
     - **Partnership Secretary**: Elton Barker
 - Any Partner can become a Coordinator and, by extension, an Officer. Elections for these posts are held every two years. While not required, any Partner is also welcome to attend the monthly General Business meeting.
 To get involved, click <a href="https://pelagios.org/contact-us/">here</a>
-
-Image credit: [Karl Grossner](https://medium.com/pelagios/from-linking-places-to-a-linked-pasts-network-ebc974f5b342)
