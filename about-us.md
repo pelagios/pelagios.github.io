@@ -15,7 +15,7 @@ In order to further develop work in this area, the Pelagios Network focuses on c
 - <a href="https://pelagios.github.io/activities/registry/">Registry</a>, which establishes services for registering and discovering linked data collections for places;
 - <a href="https://pelagios.org/activities/time/">Time</a>, which finds consensus on the representation of historical time in structured data;
 - <a href="https://pelagios.github.io/activities/visualisation/">Visualisation</a>, which develops methods and tools which make use of semantic annotation.
-- <a href="https://pelagios.github.io/activities/people/">People</a>.
+- <a href="https://pelagios.github.io/activities/people/">People</a>, which works towards consensus and standards for common representation of historical people in structured Linked Open Data
 
 Each Activity meets roughly every other month, to address issues and challenges related to the particular focus area. Meetings involve:
 - hearing from partners, sharing and developing good practice, and offering consultancy;
