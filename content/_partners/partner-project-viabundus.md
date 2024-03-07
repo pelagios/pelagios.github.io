@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Viabundus
-partner-url: https://www.viabundus.eu
+partner-url: https://www.landesgeschichte.uni-goettingen.de/handelsstrassen/index.php
 category: [annotation, visualisation]
 logo: /assets/images/partners/Partner_viabundus.png
 ---
