@@ -25,7 +25,7 @@
 // Requires the calc-interpolation function which can also be used independently
 
 @function calc-interpolation($min-screen, $min-value, $max-screen, $max-value) {
-	$a: ($max-value - $min-value) / ($max-screen - $min-screen);
+	$a: calc(($max-value - $min-value) / ($max-screen - $min-screen));
 	$b: $min-value - $a * $min-screen; 
 
 	$sign: "+";

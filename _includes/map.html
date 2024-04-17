@@ -1,0 +1,22 @@
+{% if page.lat && page.lon %}
+    <h2>Venue map</h2>
+    <div id="map" style="width: 100%; height: 500px;"></div>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script type="text/javascript">
+        // Get the latitude and longitude from the page metadata
+        var lat = {{page.lat}};
+        var lon = {{page.lon}};
+        // Create a map centered at a specific latitude and longitude
+        var map = L.map('map', {dragging: false, minZoom: 17, maxZoom: 19}).setView([lat, lon], 18);
+        // Set up the OSM layer
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: 'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors'
+        }).addTo(map);
+        // Add a marker at the same location
+        var marker = L.marker([lat, lon]).addTo(map);
+        // Optionally, add a popup to the marker
+        marker.bindPopup("<b>Historic England HQ London</b>").openPopup();
+    </script>
+{% endif %}

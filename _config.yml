@@ -1,6 +1,5 @@
 name: Pelagios Network
 markdown: kramdown
-#theme: jekyll-theme-cayman
 permalink: pretty
 
 collections_dir: content
@@ -11,6 +10,8 @@ collections:
     output: true
   partners:
     output: false
+  events:
+    output: true
 
 sass:
   style: compact # possible values: nested expanded compact compressed

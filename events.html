@@ -1,0 +1,26 @@
+---
+layout: page
+title: Events
+permalink: /events/
+---
+
+<p>
+	Pelagios, its members and collaborators occasionally host and participate in events, workshops and conferences. This page
+	will list ones of which we have been made aware.
+</p>
+
+<hr />
+
+{% assign sorted_events = site.events | sort:'title' %}
+<div class="events--list">
+	{% for event in site.events %}
+	<div class="events--teaser" style="background-image: url('{{ event.image }}')">
+	<a href={{ event.url }}>
+	<div class="events--title">
+		<h2>{{ event.title }} </h2>
+		<h3>{{ event.eventDate | date: "%d/%m/%Y" }}</h3>
+	</div>
+	</a>
+</div>
+  {% endfor %}
+</div>
