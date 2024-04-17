@@ -4,8 +4,6 @@ title: About Us
 permalink: /about-us/
 ---
 
-[![A screenshot from the Pelagios video](http://img.youtube.com/vi/MVaFbBvY6bA/0.jpg)](http://www.youtube.com/watch?v=MVaFbBvY6bA)
-
 The Pelagios Network is a long-running initiative that links information online through common references to places.
 To create and maintain these connections, Pelagios has developed:
 - a method for creating semantic annotations, based on the [W3C Web Annotation](https://www.w3.org/TR/annotation-model) standard;
