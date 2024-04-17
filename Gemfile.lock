@@ -64,7 +64,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.9.0)
   jekyll-sitemap
-  kramdown (>= 2.3.0)
+  kramdown (>= 2.4.0)
   kramdown-parser-gfm
   tzinfo-data
   webrick (~> 1.7.0)
