@@ -4,25 +4,37 @@ title: About Us
 permalink: /about-us/
 ---
 
-The Pelagios Network is a long-running initiative that links information online through common references to places.
-To create and maintain these connections, Pelagios has developed:
-- a method for creating semantic annotations, based on the [W3C Web Annotation](https://www.w3.org/TR/annotation-model) standard;
-- tools and specifications for creating and making use of these annotations, most notably [Recogito](https://recogito.pelagios.org/), an open-source platform for geo-annotating texts, images and databases;
-- a community of individuals and organizations working with geographic data in humanities disciplines (history, language and literary studies, archaeology, etc.), and cultural heritage (galleries, libraries, archives and museums).
+The Pelagios Network is a long-running initiative that links information online through common references to places, and more recently through time periods and people. Pelagios represents a community of individuals, projects and organizations working with historical data. Part of its work in evolving the LOD ecosystem is developing open methods and tools.
 
 ### How does it work?
-In order to sustain and further develop work in this area, the Pelagios Network focuses on six core Activities, which are:
+
+The Pelagios Network is a free and open association of equal and interdependent Partners. These Partners represent a range of work being carried out across the humanities (history, language and literary studies, archaeology, etc.), and cultural heritage (galleries, libraries, archives and museums).
+
+In order to further develop work in this area, the Pelagios Network focuses on core Activities in the following areas:
+
 - [Annotation](https://pelagios.github.io/activities/annotation/), which supports the use of semantic annotation to link and explore historical place information;
-- [Collaboration](https://pelagios.github.io/activities/collaboration/), which provides a forum for all Project Partners to share resources and collaborate;
 - [Gazetteers](https://pelagios.github.io/activities/gazetteers/), which establishes core requirements for global authority files on historic places and their alignment;
-- [Pedagogy](https://pelagios.github.io/activities/pedagogy/), which supports the use of linked data in education and cultural heritage;
 - [Registry](https://pelagios.github.io/activities/registry/), which establishes services for registering and discovering linked data collections for places;
-- [Visualisation](https://pelagios.github.io/activities/visualisation/) which develops methods and tools which make use of semantic annotation.
+- [Time](https://pelagios.org/activities/time/), which finds consensus on the representation of historical time in structured data;
+- [Visualisation](https://pelagios.github.io/activities/visualisation/), which develops methods and tools which make use of semantic annotation.
+- [People](https://pelagios.github.io/activities/people/), which works towards consensus and standards for common representation of historical people in structured Linked Open Data
 
-### How can I get involved?
-Pelagios is a formal Network of equal and independent [**Partners**](https://pelagios.org/partners/) who coordinate their work together, and a wider community of **Members** who have an interest in the Network's outputs. Partners may nominate Representatives who can then have a say in the coordination of an Activity, and can become an Activity Coordinator.
+Each Activity meets roughly every other month, to address issues and challenges related to the particular focus area. Meetings involve:
 
-- To become a Partner, individuals and institutions can jointly agree a set of contributions to one or more of the Activities with the Network’s governing Committee, formalised through a Memorandum of Understanding*;
-- To become a Member, simply sign up to the [Discussion](https://groups.google.com/d/forum/pelagios-network/) list.
+- hearing from partners, sharing and developing good practice, and offering consultancy;
+- developing collaboration among partners (e.g. funding bids, sharing resources);
+- developing tool documentation (e.g. tutorials) and sharing pedagogical ideas/tools/exercises related to LOD for use in education and the creative and cultural sectors;
+- guest speakers from outside academia, such as from journalism or commerce.
 
-*_MoUs are voluntary, there are no fees or subscriptions, and Partners remain in full control of their own work plans and resources_.
+### How are we governed?
+
+As an equal and open partnership, coordination and management of the Network is in the hands of the Partners.
+
+- Each Activity is run by two Coordinators elected from the Partners of that Activity. In addition to organizing the regular Activity meetings, Coordinators meet once a month for the General Business meeting, at which each Activity provides a report, network-wide issues are discussed, and new Partners to the Network are elected. Coordinators typically serve for two years.
+- Oversight of the Network’s general business (including the meeting) is managed by three Officers, typically drawn from the Activity Coordinators: a Chair, a General Secretary, and a Partnership Secretary. Like Activity Coordinators, Officers’ terms are typically for a duration of two years. The Officers’ duties are described [here](https://docs.google.com/document/d/1wFHkgeYpI3hXuOksDYhmepC9fOL6g8dM8d0kvyUAAWg/edit).
+  The current office holders are:
+    - **Chair**: Anne Chen
+    - **General Secretary**: Gethin Rees
+    - **Partnership Secretary**: Elton Barker
+- Any Partner can become a Coordinator and, by extension, an Officer. Elections for these posts are held every two years. While not required, any Partner is also welcome to attend the monthly General Business meeting.
+  To get involved, click [here](https://pelagios.org/contact-us/)
