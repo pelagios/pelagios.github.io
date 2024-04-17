@@ -11,12 +11,12 @@ button {
   font-size: 16px;
   background: #572c8d;
   color: #ffffff;
-  box-shadow: 0 4px 14px 0 rgb(0 0 0 / 10%);
+  box-shadow: 0 4px 14px 0 rgb(0, 0, 0);
   transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
 
   :hover {
     color: #d5c5c5;
-    box-shadow: 0 6px 20px rgb(93 93 93 / 23%);
+    box-shadow: 0 6px 20px rgb(93, 93, 93);
   }
 }
 button a {

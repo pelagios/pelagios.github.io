@@ -118,39 +118,38 @@
 }
 .case-study--teaser{
   &:nth-of-type(1) {
-    width: 319px;
-    height: 218px;
+    width: 300px;
+    height: 300px;
     .case-study--title {
       background: $sea-green-1;
     }
   }
   &:nth-of-type(2) {
-    width: 322px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     .case-study--title {
       background: $sea-green-2;
     }
   }
   &:nth-of-type(3) {
-    width: 230px;
-    height: 205px;
+    width: 300px;
+    height: 300px;
     align-self: flex-start;
-    margin-left: 89px;
     .case-study--title {
       background: $sea-green-2;
     }
   }
   &:nth-of-type(4) {
-    width: 170px;
-    height: 260px;
+    width: 300px;
+    height: 300px;
     align-self: flex-start;
     .case-study--title {
       background: $sea-green-3;
     }
   }
   &:nth-of-type(5) {
-    width: 280px;
-    height: 235px;
+    width: 300px;
+    height: 300px;
     align-self: flex-start;
     margin-right: 0;
     .case-study--title {
