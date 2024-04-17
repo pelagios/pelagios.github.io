@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="breadcrumb">
+  <a href="/events/">Events</a><span>&#8202;&mdash; </span>
+</div>
+<div class="activity">
+  <h1> {{ page.title }} </h1>
+  <div class="main-image"><img src="{{ page.image }}" width="100%"/></div>
+
+</div>
+
+<p class="csauth">By {{ page.author }}</p>
+
+<div class="case_study">
+  {{ content }}
+</div>
+
+{% include map.html %}
+
+
+

@@ -1,4 +1,4 @@
-.case-studies--home-wrapper {
+.events--home-wrapper {
   background-image: url(/assets/images/mainimage.jpg);
   background-size: cover;
   padding: 60px 0;
@@ -7,7 +7,7 @@
   transform: translateX(-50%);
   width: 100vw;
   clear: both;
-  .case-studies--home {
+  .events--home {
     max-width: $content-max-width - 200px;
     margin-left: auto;
     margin-right: auto;
@@ -18,26 +18,9 @@
   }
 }
 
-.morecs {
-  margin: 0 auto;
-  max-width: 820px;
-  a {
-    color: white;
-    float: right;
-    font-size: 90%;
-    text-decoration: none;
-    &:hover {
-      // color: $turquoise;
-      text-decoration: underline;
-    }
-    &:before {
-      content: '';
-    }
-  }
-}
 
-.case-studies--home,
-.case-studies--list {
+.events--home,
+.events--list {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -46,11 +29,14 @@
   }
 }
 
-.case-study--teaser:nth-of-type(1),
-.case-study--teaser:nth-of-type(2),
-.case-study--teaser:nth-of-type(3),
-.case-study--teaser:nth-of-type(4),
-.case-study--teaser:nth-of-type(5) {
+.events--teaser:nth-of-type(1),
+.events--teaser:nth-of-type(2),
+.events--teaser:nth-of-type(3),
+.events--teaser:nth-of-type(4),
+.events--teaser:nth-of-type(5) {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   max-width: 400px;
   position: relative;
   float: left;
@@ -82,14 +68,14 @@
     border-radius: 0;
 
   }
-  .case-study--title {
+  .events--title {
     background: #099B9B;
     min-height: 90px;
     display: block;
     width: 100%;
     position: absolute;
     bottom: 0;
-    line-height: 80px;
+    line-height: 40px;
     &:before {
       content: '';
       background: -moz-linear-gradient(top, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0) 80%); /* FF3.6-15 */
@@ -103,7 +89,7 @@
       z-index: 20;
     }
   }
-  h2 {
+  h2, h3 {
     color: white;
     padding: 0 20px;
     font-size: 18px;
@@ -116,18 +102,19 @@
     z-index: 40;
   }
 }
-.case-study--teaser{
+
+.events--teaser{
   &:nth-of-type(1) {
     width: 300px;
     height: 300px;
-    .case-study--title {
+    .events--title {
       background: $sea-green-1;
     }
   }
   &:nth-of-type(2) {
     width: 300px;
     height: 300px;
-    .case-study--title {
+    .events--title {
       background: $sea-green-2;
     }
   }
@@ -135,7 +122,8 @@
     width: 300px;
     height: 300px;
     align-self: flex-start;
-    .case-study--title {
+    margin-left: 89px;
+    .events--title {
       background: $sea-green-2;
     }
   }
@@ -143,7 +131,7 @@
     width: 300px;
     height: 300px;
     align-self: flex-start;
-    .case-study--title {
+    .events--title {
       background: $sea-green-3;
     }
   }
@@ -152,16 +140,16 @@
     height: 300px;
     align-self: flex-start;
     margin-right: 0;
-    .case-study--title {
+    .events--title {
       background: $sea-green-1;
     }
   }
 }
-.case-study--teaser:nth-of-type(6){
+.events--teaser:nth-of-type(6){
   margin-top: 80px;
 }
 
-.case-study--teaser {
+.events--teaser {
   width: 100%;
   img {
     width: 50px;
@@ -181,13 +169,13 @@
   }
 }
 
-.case-study {
+.events {
   background: #f1f1f1;
   margin-bottom: 30px;
   padding: 5px 20px 10px;
 }
 a:hover {
-  .case-study {
+  .events {
     background: #e7e7e7;
     h2, p {
       color: initial;
@@ -195,7 +183,4 @@ a:hover {
   }
 }
 
-.csauth {
-  font-size: $font-size-tiny;
-  font-weight: 600;
-}
+

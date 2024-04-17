@@ -1,0 +1,25 @@
+button {
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border: none;
+  padding: 0 56px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 7px;
+  font-weight: 400;
+  font-size: 16px;
+  background: #572c8d;
+  color: #ffffff;
+  box-shadow: 0 4px 14px 0 rgb(0, 0, 0);
+  transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+
+  :hover {
+    color: #d5c5c5;
+    box-shadow: 0 6px 20px rgb(93, 93, 93);
+  }
+}
+button a {
+  color: #ffffff;
+  text-decoration: none;
+}
