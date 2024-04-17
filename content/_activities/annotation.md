@@ -12,4 +12,4 @@ image: /assets/images/Actvity_annotation.jpg
 
 Supports the use of semantic annotation to link and explore historical place information 
 
-See our Activity Charter <a href="https://docs.google.com/document/d/1Id6Ml9XKxiyf_VsG98DyeXzlAtLUbKqfhiNRkFDY4PY/edit">here</a> 
+See our Activity Charter [here](https://docs.google.com/document/d/1Id6Ml9XKxiyf_VsG98DyeXzlAtLUbKqfhiNRkFDY4PY/edit)
