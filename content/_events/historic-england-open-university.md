@@ -16,18 +16,13 @@ objects, and databases.
 
 In particular, we will be showcasing tools that are community maintained and supported. This will include the launch of 
 new modular Recogito annotation tool, a hands-on tutorial on using Peripleo to build your own maps of things related to 
-place, and a demonstration of Historic England's implementation of Arches. In addition to exploring real-life use cases 
+place, and a ~~demonstration of Historic England's implementation of Arches~~ discussion of Cambridge University's use of Arches. In addition to exploring real-life use cases 
 in the wild, the workshop will encourage discussion of issues relating to public engagement and citizen science; 
 interoperability and infrastructure; and community development and sustainability.
 
-A full agenda will be made available shortly and the event will be hybrid with in-place attendance limit of 30 people and
-remote participation via Teams.
+We look forward to seeing you there or online.
 
-Do, therefore, let us know ASAP if you are able to attend in person.
-
-We look forward to seeing you there.
-
-<button><a href="https://docs.google.com/forms/d/e/1FAIpQLSfYwAOwGkYwuBT3bnN5lj7H2BLbF9G4Lj_6mhwWVcJ_RcCLmg/viewform">Sign up for attendance</a></button>
+<button><a href="https://docs.google.com/forms/d/e/1FAIpQLSfYwAOwGkYwuBT3bnN5lj7H2BLbF9G4Lj_6mhwWVcJ_RcCLmg/viewform">Sign up for attendance (online only now)</a></button>
 
 ## Programme
 
@@ -44,7 +39,7 @@ This programme is subject to change due to transport and availability. Some spea
 
 * 11:30 - 11:45: Elton Barker - a brief history of Recogito
 * 11:45 - 12:00: Sarah Middle - demoing the new Recogito for mapping object itineraries
-* 12:00 - 12:15: Carla Velterop Martin - HE’s implementation of Arches
+* 12:00 - 12:15: Junaid Abdul Jabbar (McDonald Institute, Cambridge University) - MAHSA Arches
 * 12:15 - 12:30: Q&A
 * 12:30 - 12:45: Daniel Pett - Summary & Provocation
 
@@ -54,21 +49,22 @@ Sandwiches on the roof terrace if the weather is amenable.
 
 ### Session 3, 13.15 - 13.35: Introducing citizen science
 
-* 13:15 - 13:30: Maria Aristeidou/Sarah A. - analytics in online space
+* 13:15 - 13:30: Maria Aristeidou/Sarah Alcock - analytics in online space
 * 13:30 - 13:35: Q&A
 
 ### Session 4, 13:35 - 14:20: Pelagios Network Partners
 
 * 13:35 - 13:50: Karl Grossner - The World Historical Gazetteer
-* 13.50 - 14:05: Gethin Rees (The British Library) - Peripleo
+* 13.50 - 14:05: Gethin Rees (The British Library) - Peripleo (Teams presentation)
 * 14:05 - 14:20: Q&A and how to join the network
 
 #### 14:20 - 14.30: Break
 
 ### Session 5, 14:30 - 15.10: Parallel events (a) user testing; (b) guest speakers
 
-* 14:30 and 14:50 (library): Maria Aristeidou/Sarah Alcock/Sarah Middle - Recogito hands-on activities
-* 14:30 and 14:50 (main room): Beyond Notability and MapTiler
+* 14:30 and 14:50 : Maria Aristeidou/Sarah Alcock/Sarah Middle - Recogito hands-on activities for physical attendees (library area)
+* 14:30 - 14:40: Amara Thornton (School of Advanced Study, University of London) Beyond Notability (main room/Teams)
+* 14:40 - 14:50: MapTiler (main room/Teams)
 
 ### Session 6, 15:10 - 16:00: Plenary
 
