@@ -75,7 +75,7 @@ We have captured video footage of nearly all the speakers from this event via th
 a little rough and ready, but we hope they will be useful for those who could not attend. Amara Thornton's has 
 some corruption and will be added if possible. We may clean these up slightly and fix the subtitles and transcriptions where glaring errors exist. 
 
-<iframe width="100%" height="500" src="https://www.youtube-nocookie.com/embed/videoseries?si=cEHmgmobfqAuIMv8&amp;list=PLYLI4bmKQXBv2tic1goQzLoD2VwgbWtBx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="840" height="473" src="https://www.youtube-nocookie.com/embed/videoseries?si=cEHmgmobfqAuIMv8&amp;list=PLYLI4bmKQXBv2tic1goQzLoD2VwgbWtBx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 To open the transcription for any of these videos, open on YouTube rather than the embed and click on the description and then show transcript. 
 
