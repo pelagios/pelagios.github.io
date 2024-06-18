@@ -22,8 +22,6 @@ interoperability and infrastructure; and community development and sustainabilit
 
 We look forward to seeing you there or online.
 
-<button><a href="https://docs.google.com/forms/d/e/1FAIpQLSfYwAOwGkYwuBT3bnN5lj7H2BLbF9G4Lj_6mhwWVcJ_RcCLmg/viewform">Sign up for attendance (online only now)</a></button>
-
 ## Programme
 
 This programme is subject to change due to transport and availability. Some speakers may be on Teams.
@@ -41,7 +39,7 @@ This programme is subject to change due to transport and availability. Some spea
 * 11:45 - 12:00: Sarah Middle - demoing the new Recogito for mapping object itineraries
 * 12:00 - 12:15: Junaid Abdul Jabbar (McDonald Institute, Cambridge University) - MAHSA Arches
 * 12:15 - 12:30: Q&A
-* 12:30 - 12:45: Daniel Pett - Summary & Provocation
+* ~~12:30 - 12:45: Daniel Pett - Summary & Provocation~~
 
 #### 12:45 - 13:15: Lunch
 
@@ -64,8 +62,19 @@ Sandwiches on the roof terrace if the weather is amenable.
 
 * 14:30 and 14:50 : Maria Aristeidou/Sarah Alcock/Sarah Middle - Recogito hands-on activities for physical attendees (library area)
 * 14:30 - 14:40: Amara Thornton (School of Advanced Study, University of London) Beyond Notability (main room/Teams)
-* 14:40 - 14:50: MapTiler (main room/Teams)
+* 14:40 - 14:50: Petr Pridal - MapTiler (main room/Teams)
+* 14:50 - 15:00: Mark Harrison (Historic England) - Heritage Crime
 
 ### Session 6, 15:10 - 16:00: Plenary
 
 Post workshop drinks at a local pub, if people wish to go. 
+
+## Videos from Teams 
+
+We have captured video footage of nearly all the speakers from this event via the live MicroSoft Teams call. These are 
+a littel rough and ready, but we hope they will be useful for those who could not attend. We may 
+clean these up slightly and fix the subtitles and transcriptions where glaring errors exist. 
+
+<iframe width="100%" height="500" src="https://www.youtube-nocookie.com/embed/videoseries?si=cEHmgmobfqAuIMv8&amp;list=PLYLI4bmKQXBv2tic1goQzLoD2VwgbWtBx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+To open the transcription for any of these videos, click on the description and then show transcript. 
