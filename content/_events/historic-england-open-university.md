@@ -53,7 +53,7 @@ Sandwiches on the roof terrace if the weather is amenable.
 ### Session 4, 13:35 - 14:20: Pelagios Network Partners
 
 * 13:35 - 13:50: Karl Grossner - The World Historical Gazetteer
-* 13.50 - 14:05: Gethin Rees (The British Library) - Peripleo (Teams presentation)
+* 13.50 - 14:05: Gethin Rees (The British Library) - Peripleo 
 * 14:05 - 14:20: Q&A and how to join the network
 
 #### 14:20 - 14.30: Break
@@ -62,19 +62,25 @@ Sandwiches on the roof terrace if the weather is amenable.
 
 * 14:30 and 14:50 : Maria Aristeidou/Sarah Alcock/Sarah Middle - Recogito hands-on activities for physical attendees (library area)
 * 14:30 - 14:40: Amara Thornton (School of Advanced Study, University of London) Beyond Notability (main room/Teams)
-* 14:40 - 14:50: Petr Pridal - MapTiler (main room/Teams)
+* 14:40 - 14:50: Petr Pridal - MapTiler/ TimeMap
 * 14:50 - 15:00: Mark Harrison (Historic England) - Heritage Crime
 
 ### Session 6, 15:10 - 16:00: Plenary
 
 Post workshop drinks at a local pub, if people wish to go. 
 
-## Videos from Teams 
+## <a id="videos"></a> Videos from Teams 
 
 We have captured video footage of nearly all the speakers from this event via the live MicroSoft Teams call. These are 
-a littel rough and ready, but we hope they will be useful for those who could not attend. We may 
-clean these up slightly and fix the subtitles and transcriptions where glaring errors exist. 
+a little rough and ready, but we hope they will be useful for those who could not attend. Amara Thornton's has 
+some corruption and will be added if possible. We may clean these up slightly and fix the subtitles and transcriptions where glaring errors exist. 
 
 <iframe width="100%" height="500" src="https://www.youtube-nocookie.com/embed/videoseries?si=cEHmgmobfqAuIMv8&amp;list=PLYLI4bmKQXBv2tic1goQzLoD2VwgbWtBx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-To open the transcription for any of these videos, click on the description and then show transcript. 
+To open the transcription for any of these videos, open on YouTube rather than the embed and click on the description and then show transcript. 
+
+## Transcripts, links and Teams chat files
+
+* [Transcript](/assets/documents/pelagiosWorkshopTranscript.odt) - ODT file, not edited
+* [Chat transcript](https://docs.google.com/document/d/1QkfEUw8hMZ8m0WzeSJFuMRFSlkq94GFe7H2L3TWKCvo/edit?usp=sharing) - Google Doc
+* [URLS mentioned](https://docs.google.com/document/d/1A73t6q4ZoUbIZjAYKHotDOHLb6oNxtbhxqTiY5wBWdo/edit?usp=sharing) - Google Doc
