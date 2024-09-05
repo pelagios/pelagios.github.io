@@ -18,11 +18,11 @@ The [Linked Pasts Symposium](https://linkedpasts.hcommons.org/) brings together 
 
 Proposals on various topics related to Linked Open Data are welcome, such as:
 
-・a tutorial or workshop on LOD tools and platforms
-・progress and challenges of LOD related projects
-・practical or theoretical discussion on data models or ontologies
-・analytical use of LOD on historical, archaeological, or cultural heritage studies
-・pedagogical aspect or dissemination of LOD in the field
+* a tutorial or workshop on LOD tools and platforms
+* progress and challenges of LOD related projects
+* practical or theoretical discussion on data models or ontologies
+* analytical use of LOD on historical, archaeological, or cultural heritage studies
+* pedagogical aspect or dissemination of LOD in the field
 
 The deadline is set for 11:59 pm Hawaii Standard Time, 22 September 2024. 
 
