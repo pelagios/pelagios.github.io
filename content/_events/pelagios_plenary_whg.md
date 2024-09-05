@@ -6,7 +6,7 @@ venue: 'Zoom'
 image: '/assets/images/WHG.png'
 lat: 40.4419
 lon: -79.9537
-eventDate: 2024-17-09 14:00:00 +0000
+eventDate: 2024-09-17 14:00:00 +0000
 --- 
 
 The Pelagios officers are delighted to invite you to a network-wide talk by Ruth Mostern titled The World Historical Gazetteer Version 3. To be held on Sept 17, 9am ET/2pm BST - Click [here](https://mytime.io/2pm/BST) for your time.
