@@ -7,6 +7,7 @@ image: '/assets/images/historic-england-map.jpg'
 lat: 51.510888333333334
 lon: -0.0907464
 eventDate: 2024-11-06 10:00:00 +0000
+order: 1
 ---
 
 On Tuesday June 11, 2024, Historic England, The Open University, and The Pelagios Network will be hosting a workshop on 
