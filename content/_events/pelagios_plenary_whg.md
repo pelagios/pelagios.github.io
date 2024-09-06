@@ -1,6 +1,6 @@
 ---
 layout: events
-title: 'The World Historical Gazetteer Version 3, Pelagios Network Plenary'
+title: 'The World Historical Gazetteer, Pelagios Network Plenary'
 author: 'Ruth Mostern, Elton Barker, Gethin Rees, Anne Chen'
 venue: 'Zoom'
 image: '/assets/images/WHG.png'
