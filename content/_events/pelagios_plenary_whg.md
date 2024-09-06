@@ -3,7 +3,7 @@ layout: events
 title: 'The World Historical Gazetteer, Pelagios Network Plenary'
 author: 'Ruth Mostern, Elton Barker, Gethin Rees, Anne Chen'
 venue: 'Zoom'
-image: '/assets/images/WHG.svg'
+image: '/assets/images/WHG.png'
 lat: 40.4419
 lon: -79.9537
 eventDate: 2024-09-17 14:00:00 +0000
