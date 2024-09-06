@@ -11,7 +11,7 @@ permalink: /events/
 
 <hr />
 
-{% assign sorted_events = site.events | sort:'eventDate' %}
+{% assign sorted_events = site.events | sort:'order' %}
 <div class="events--list">
 	{% for event in sorted_events %}
 	<div class="events--teaser" style="background-image: url('{{ event.image }}')">
