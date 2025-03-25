@@ -65,6 +65,12 @@
     background-repeat: no-repeat;
     background-size: 24px;
   }
+  a.logo {
+    background-image: url(/assets/images/logocircle.svg);
+    background-position: 12px 7px;
+    background-repeat: no-repeat;
+    background-size: 24px;
+  }
   a:last-of-type {
     margin-bottom: 30px;
   }
