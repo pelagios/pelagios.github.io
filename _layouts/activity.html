@@ -46,9 +46,9 @@ layout: default
   <!-- We check through the 'case studies' and print content from those whose category matches the current page category -->
 {% for case-study in site.case-studies %}
   {% if case-study.category contains page.category.first %}
-    <a href="{{ case-study.url }}">
+    <a href="{{ case-study.permalink }}">
       <div class="case-study">
-        <img src="{{ case-study.image }}" width="180" / >
+        <a href="{{ case-study.permalink }}" ><img src="{{ case-study.image }}" width="180" / ></a>
         <h2>{{ case-study.title }}</h2>
         <p>{{ case-study.excerpt | strip_html  }}</p>
       </div>
@@ -67,10 +67,14 @@ layout: default
   {% if partner.category contains page.category.first %}
   <div class="partner--related">
     {% if partner.logo != nil %}
-    <img class="partner--logo" src='{{ partner.logo }}' alt="{{ partner.title }} logo"/>
+      <img class="partner--logo" src='{{ partner.logo }}' alt="{{ partner.title }} logo"/>
     {% endif %}
     <div class="partner--text">
+    {%if partner.partner-url != nil %}
+       <a href="{{ partner.partner-url }}" ><h3>{{ partner.title }}</h3></a>
+    {%else %}
     <h3>{{ partner.title }}</h3>
+    {% endif %}
     {{ partner.excerpt }}
     </div>
   </div>
