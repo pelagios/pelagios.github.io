@@ -6,6 +6,8 @@ gem "kramdown-parser-gfm"
 gem "csv" # For CSV support in Jekyll
 gem "base64" 
 gem "bigdecimal" # For handling large numbers in Jekyll
+gem "logger" # For logging in Jekyll
+gem "nokogiri" # For parsing HTML and XML in Jekyll
 
 group :jekyll_plugins do
   gem 'jekyll-sitemap'
