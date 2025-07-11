@@ -8,7 +8,7 @@ activity-email: visualisation@pelagios.org
 category: [visualisation]
 image: /assets/images/Activity_visualisation.jpg
 charter: /assets/charters/Visualisation_ v4.pdf
-
+description: Pelagios Supports the development of tools and methods for visualising geospatial information 
 ---
 
 Supports the development of tools and methods for visualising geospatial information 

@@ -7,7 +7,7 @@ activity-coordinator2: Pascal Belouin
 activity-email: registry@pelagios.org
 category: [registry]
 image: /assets/images/Activity_registry.jpg
-
+description: Pelagios establishes services for registering and discovering linked data collections for places
 ---
 
 Establishes services for registering and discovering linked data collections for places

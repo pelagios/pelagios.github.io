@@ -7,7 +7,7 @@ activity-coordinator2: Jun Ogawa
 activity-email: people@pelagios.org
 category: [people]
 image: /assets/images/Activity_people.jpg
-
+description: Works towards consensus and standards for common representation of historical people in structured Linked Open Data
 ---
 
 Works towards consensus and standards for common representation of historical people in structured Linked Open Data

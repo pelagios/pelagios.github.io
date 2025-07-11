@@ -11,6 +11,7 @@ gem "nokogiri" # For parsing HTML and XML in Jekyll
 
 group :jekyll_plugins do
   gem 'jekyll-sitemap'
+  gem 'jekyll-seo-tag'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

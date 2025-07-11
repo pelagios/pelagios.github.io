@@ -7,7 +7,7 @@ activity-coordinator2: Valeria Vitale
 activity-email: gazetteers@pelagios.org
 category: [gazetteers]
 image: /assets/images/Activity_gazetteer.jpg
-
+description: Establishes core requirements for global authority files on historic places and their alignment
 ---
 
 Establishes core requirements for global authority files on historic places and their alignment
