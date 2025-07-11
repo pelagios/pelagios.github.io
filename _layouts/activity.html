@@ -70,7 +70,7 @@ layout: default
       <img class="partner--logo" src='{{ partner.logo }}' alt="{{ partner.title }} logo"/>
     {% endif %}
     <div class="partner--text">
-    {%if partner.partner-url != nil %}
+    {% if partner.partner-url != nil %}
        <a href="{{ partner.partner-url }}" ><h3>{{ partner.title }}</h3></a>
     {%else %}
     <h3>{{ partner.title }}</h3>
