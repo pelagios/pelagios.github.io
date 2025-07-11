@@ -21,3 +21,13 @@ plugins:
 
 # Google Analytics
 google_analytics: UA-141761161-1
+
+title: Pelagios Network
+description: The Pelagios Network is a community of scholars, technologists, and cultural heritage professionals working together to make the world’s historical places and spaces more visible online.
+keywords: Pelagios, network, history, archaeology, digital humanities
+image: /assets/images/pelagios-logo.png
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/pelagioslogo.svg
