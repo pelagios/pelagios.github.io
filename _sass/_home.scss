@@ -71,6 +71,19 @@
     background-repeat: no-repeat;
     background-size: 24px;
   }
+   a.bluesky {
+    background-image: url(/assets/images/icon-bluesky.svg);
+    background-position: 12px 7px;
+    background-repeat: no-repeat;
+    background-size: 24px;
+  }
+
+  a.youtube {
+    background-image: url(/assets/images/icon-youtube.svg);
+    background-position: 12px 7px;
+    background-repeat: no-repeat;
+    background-size: 24px;
+  }
   a:last-of-type {
     margin-bottom: 30px;
   }
