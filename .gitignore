@@ -1,3 +1,19 @@
+# Jekyll build output
 _site/
 .sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# IDE/editor folders
 .idea/
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node modules (if using npm/yarn)
+node_modules/
+
+# Log files
+*.log
