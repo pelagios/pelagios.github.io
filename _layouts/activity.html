@@ -48,7 +48,7 @@ layout: default
   {% if case-study.category contains page.category.first %}
     <a href="{{ case-study.permalink }}">
       <div class="case-study">
-        <a href="{{ case-study.permalink }}" ><img src="{{ case-study.image }}" width="180" / ></a>
+        <img src="{{ case-study.image }}" width="180" />
         <h2>{{ case-study.title }}</h2>
         <p>{{ case-study.excerpt | strip_html  }}</p>
       </div>
