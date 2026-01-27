@@ -3,39 +3,68 @@ layout: default
 title: Welcome to Pelagios Network
 
 ---
-<div class="blurb--home">
-	<p>The Pelagios Network is a community of researchers, scientists and curators using Linked Data methods and tools to investigate the past.</p>
-</div><!-- /.blurb -->
-
-<div class="blurb--home">
-  <a class="cta blurb" href="/about-us" >About Pelagios</a>
-  <a class="cta blurb" href="/contact-us" >Become a Partner</a>
-  <a class="cta blurb" href="/partners" >Discover Partners</a>
-  <a class="cta blurb" href="/linked-data" >What is Linked Open Data?</a>
-  <a class="cta blurb" href="/methods-tools" >Our Methods and Tools</a>
-  <a class="cta blurb" href="/events" >Events</a>
-</div><!-- /.blurb -->
 
 
-<div class="case-studies--home-wrapper">
-	<div class="video">
-		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MVaFbBvY6bA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<a href="https://www.wearecognitive.com">This whiteboard animation was made by Cognitive</a>
+<div class="home-section section-1">
+	<div class="constrained flexy promo-1">
+		<div class="home-intro">
+			<h1>Linking data and people</h1>
+			<h2>Pelagios is a global community of practice and bottom-up infrastructure developing the ways and means of linking heritage data online</h2>
+			<p class="link-list">
+				<div class="link-button"><a href="{{ '/about-us' | relative_url }}">About the network</a></div>
+			</p>
+		</div>
+
+		<div class="home-video">
+			<div class="video">
+				<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MVaFbBvY6bA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<p>Animation by <a href="https://www.wearecognitive.com">Cognitive</a></p>
+			</div>
+		</div>
 	</div>
 </div>
 
 
 
-<div class="activities--home">
-	<h2>The Pelagios Network is organised through different core Activities:</h2>
-	{% assign sorted_activities = site.activities | sort:'name' %}
- 	{% for activity in sorted_activities %}
-	<div class="activity--teaser">
-		<a href={{ activity.url }}>
-			<img src="{{ activity.image }}" width="115px">
-    	<h3>{{ activity.title }}</h3>
-	  	<p>{{ activity.excerpt | strip_html }}</p>
-	  </a>
+
+<div class="home-section section-2">
+	<div class="constrained flexy promo-2">
+
+		<div class="promo-block image-section">
+			<div class="video">
+				<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/mMR6JQ1M6qE" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<p>Animation by <a href="https://www.too-tall.com/">Too Tall Productions</a></p>
+			</div>
+			
+		</div>
+
+	<div class="promo-block text-section">
+		<h2>We promote standards-based methods and tools</h2>
+		<p>As an infrastructure, Pelagios coordinates lightweight Linked Open Data (LOD) approaches to connecting historical information in and across the humanities and heritage sectors, based on web annotation, FAIR principles, and easy-to-use open-source tools.</p>
+		<p class="link-list">
+			<div class="link-button"><a href="linked-open-data">What is Linked Open Data (LOD)?</a></div>
+			<div class="link-button"><a href="lod/tools-resources">Tools and resources</a></div>
+			<div class="link-button"><a href="lod/case-studies">The Pelagios Way</a></div>
+		</p>
 	</div>
- 	{% endfor %}
+
+	</div>
+</div>
+
+<div class="home-section section-3">
+	<div class="constrained flexy promo-3">
+
+		<div class="promo-block text-section">
+			<h2>We connect people</h2>
+			<p>As a community of practice, Pelagios is made up of people drawn from a range of backgrounds — researchers, educators, software developers, heritage professionals — interested in making use of LOD technologies to study the past. Working Groups meet regularly to coordinate work on entities of Place, People and Time, and processes of Annotation, Registry and Visualisation.</p>
+			<p class="link-list">
+				<div class="link-button"><a href="about-us/working-groups">Working Groups</a></div>
+				<div class="link-button"><a href="lod/case-studies">Case Studies</a></div>
+			</p>
+		</div>
+
+		<div class="promo-block image-section">
+			<img src="{{ '/assets/images/Pelagios-meetup-screenshot-3.jpg' | relative_url }}" alt="Screenshot of a Pelagios call">
+		</div>
+	</div>
 </div>

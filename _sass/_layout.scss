@@ -1,0 +1,391 @@
+
+body {
+  margin: 0;
+  overflow-x:hidden;
+}
+
+.constrained {
+  width: 90%;
+  max-width: $content-max-width;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.container li {
+  line-height: 1.4;
+  margin: 0 0 5px 0;
+}
+
+.constrained.container {
+  
+}
+
+.page--type-case-studies,
+.page--type-activities {
+  .constrained.container {
+    @media (min-width: 600px){
+      float: left;
+      padding-left: 30%;
+      width: 68%;
+      .main-image {
+          margin-left:  -28%;
+          position: absolute;
+          padding-right: 30px;
+          width: 25%;
+      }
+    }
+    @media (min-width: 800px){
+      float: initial;
+      padding-left: $content-column-width;
+      max-width: $content-column-width-large;
+      .main-image {
+          margin-left:  -220px;
+          width: 170px;
+      }
+    }
+    .main-image {
+      margin-top: -33px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+
+
+.page--about-us, .page--our-activities, .page--working-groups, .page--tools-and-resources, .page--case-studies, .page--best-practice, .page--linked-open-data, .page--contact-us, .methods {
+  .constrained.container {
+    max-width: 665px;
+  }
+}
+
+
+.page--working-groups {
+  .working-groups {
+    p+p, ul {
+      margin-top: -1rem;
+    }
+  }
+  h3 {
+
+  }
+
+  .subtitle {
+    font-weight: 600;
+    font-size: 1.3rem;
+  }
+}
+
+
+
+
+// ------------------ //
+// Header //
+
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+/* Mobile breakpoint */
+@media (max-width: 900px) {
+  .site-header {
+    flex-direction: column;    /* stack logo + menu vertically */
+    align-items: center;
+    gap: 1rem;                 /* spacing between the two rows */
+  }
+}
+
+
+.menu {
+  background: $blue--dark;
+  border-radius: 30px;
+  height: 3rem;
+}
+.menu ol {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.menu > ol {
+  max-width: 1000px;
+  padding: 0 2rem;
+  display: flex;
+  gap: 2rem;
+}
+.menu > ol > .menu-item {
+  flex: 1;
+  padding: 0.75rem 0;
+}
+.menu > ol > .menu-item:after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  bottom: 5px;
+  left: calc(50% - 2px);
+  background: $turquoise;
+  will-change: transform;
+  transform: scale(0);
+  transition: transform 0.2s ease;
+}
+.menu > ol > .menu-item:hover:after {
+  transform: scale(1);
+}
+.menu-item {
+  position: relative;
+  line-height: 1.5rem;
+  text-align: center;
+}
+.menu-item a {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  color: #FFF;
+  font-weight: 500;
+  text-decoration: none;
+}
+.menu-item:hover a {
+  color: $turquoise--light;
+  text-decoration: none;
+}
+.menu-item .sub-menu .menu-item a {
+  color: $white;
+}
+.menu-item .sub-menu .menu-item:hover a {
+  color: $turquoise--light;
+}
+
+.sub-menu .menu-item {
+  padding: 0.75rem 0;
+  background: $blue--dark;
+  opacity: 0;
+  transform-origin: bottom;
+  animation: enter 0.2s ease forwards;
+}
+.sub-menu .menu-item:nth-child(1) {
+  animation-duration: 0.2s;
+  animation-delay: 0s;
+}
+.sub-menu .menu-item:nth-child(2) {
+  animation-duration: 0.3s;
+  animation-delay: 0.1s;
+}
+.sub-menu .menu-item:nth-child(3) {
+  animation-duration: 0.4s;
+  animation-delay: 0.2s;
+}
+.sub-menu .menu-item:hover a {
+  
+}
+.sub-menu .menu-item a {
+  padding: 0 0.75rem;
+}
+@media screen and (max-width: 600px) {
+  .sub-menu .menu-item {
+    
+  }
+}
+
+
+.sub-menu {
+  position: absolute;
+  left: 50%; transform: translateX(-50%);
+  top: 100%;
+  display: none;
+  z-index: 1;
+}
+.menu-item:hover > .sub-menu {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .sub-menu {
+    width: 100vw;
+    left: -2rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+
+* {
+  box-sizing: border-box;
+}
+*:before, *:after {
+  box-sizing: inherit;
+}
+
+
+@keyframes enter {
+  from {
+    opacity: 0;
+    transform: scaleY(0.98) translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+.site-nav a {
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+
+img.logo {
+    width: 220px;
+}
+
+// Footer //
+
+footer {
+  clear: both;
+  margin-top: 100px;
+  display: flex;
+    flex-direction: column;
+  width: 100%;
+  margin-top: 2rem 0;
+}
+
+.footer-first {
+  background:  url("../images/mainimage.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  color: $white;
+  display: flex;
+  padding: 3rem 0;
+  text-align: center;
+
+  p {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  a {
+    background: $turquoise--dark;
+    border-radius: 40px;
+    color: $white;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    padding: 0.3rem 1.2rem ;
+    text-decoration: none;
+
+    &:hover {
+      background: $sea-green-2;
+      color: $white;
+    }
+  }  
+}
+
+
+
+.footer-second {
+  background: $blue--dark;
+  color: $white;
+  padding: 3rem 0;
+  p {
+    font-weight: 600;
+  }
+}
+
+@media (min-width : 600px) {
+  .footer-second .constrained {
+    display: flex;
+    gap: 2rem; 
+  }
+}
+
+.footer-second p, .footer-second ul {
+  color: $white;
+  font-size: 16px;
+  margin-top: 0;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-second a {
+  color: $white;
+  &:hover {
+    color: $turquoise--light;
+  }
+}
+
+@media (min-width : 600px) {
+  .footer-1 {
+    width: 50%
+  }
+
+  .footer-2, .footer-3 {
+    width: 25%;
+    border-left: 1px solid $turquoise;
+    padding-left: 1rem;
+  }
+}
+
+
+
+.footer-1 {
+  
+}
+
+.footer-2 {
+  
+}
+
+.footer-3 {
+  
+}
+
+
+
+
+
+
+
+// BUTTONS
+
+.link-button {
+  clear: left;
+  margin-bottom: 10px;
+}
+
+.link-button::before {
+  content: "→ ";
+}
+
+.link-button a {
+  font-size: 1.2rem;
+  text-decoration: underline;    
+  color: $blue--dark;
+}
+.section-1 .link-button, .section-1 .link-button a {
+  color: $white;
+}
+
+ .link-button a:hover {
+  color: $turquoise;    
+}

@@ -14,12 +14,14 @@ permalink: /activities/
 	{% assign sorted_activities = site.activities | sort:'name' %}
  	{% for activity in sorted_activities %}
 	<div class="activities--teaser">
-		<a href={{ activity.url }}>
-		  <img src="{{ activity.image }}"/>
-      <h2>{{ activity.title }}</h2>
-	    <p>{{ activity.excerpt | strip_html }}</p>
-	<p>{{ activity.activity-email | strip_html }}</p>
-	  </a>
-	</div>
+  	<a href="{{ activity.url | relative_url }}">
+    <img src="{{ activity.image | relative_url }}" alt="{{ activity.title }}">
+    <h2>{{ activity.title }}</h2>
+    <p>{{ activity.excerpt | strip_html }}</p>
+    {% if activity.activity-email %}
+      <p>{{ activity.activity-email | strip_html }}</p>
+    {% endif %}
+  </a>
+</div>
  	{% endfor %}
 </div>

@@ -1,4 +1,97 @@
+.home-section { 
+  
+  background-size: cover;
+  padding: 3rem 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  clear: both;
+}
 
+.section-1, .section-3 { 
+  background: $light-grey; 
+}
+
+
+.section-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/mainimage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  
+  h1, h2, p {
+    color: $white;
+  }
+
+  h1 {
+    font-size: 1.9rem;
+  }
+  h2 {
+    
+  }
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+.home-section .constrained.flexy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+}
+
+
+
+
+@media (max-width: 900px) {
+  .home-section .constrained.flexy {
+    flex-direction: column;
+  }
+}
+
+.home-intro {
+  
+}
+
+.promo-2, .promo-3 {
+  padding: 2% 0;
+}
+
+.promo-3 {
+  background-color: $light-grey;
+  padding: 0rem 0 2rem;
+}
+
+.image-section {
+
+}
+
+.promo-2 {
+  
+}
+
+.case-studies--home-wrapper {
+  background-image: url("../images/mainimage.jpg");
+  background-size: cover;
+  padding: 60px 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  clear: both;
+  .case-studies--home {
+    max-width: $content-max-width - 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2.5%;
+    @media (max-width: 710px){
+      justify-content: space-around;
+    }
+  }
+}
 
 .blurb--home {
   max-width: 650px;
@@ -21,6 +114,12 @@
     position: relative;
   }
 }
+
+
+
+
+
+
 .cta--home {
   width: 220px;
   float: left;
@@ -42,44 +141,44 @@
 
 .cta--home {
   a.groups {
-    background-image: url(/assets/images/icon-chat.svg);
+    background-image: url(../images/icon-chat.svg);
     background-position: 10px 9px;
     background-repeat: no-repeat;
     background-size: 26px;
   }
   a.blog {
-    background-image: url(/assets/images/icon-medium.svg);
+    background-image: url(../images/icon-medium.svg);
     background-position: 12px 7px;
     background-repeat: no-repeat;
     background-size: 23px;
   }
   a.github {
-    background-image: url(/assets/images/icon-github.svg);
+    background-image: url(../images/icon-github.svg);
     background-position: 11px 1px;
     background-repeat: no-repeat;
     background-size: 25px;
   }
   a.recogito {
-    background-image: url(/assets/images/icon-recogito.svg);
+    background-image: url(../images/icon-recogito.svg);
     background-position: 12px 7px;
     background-repeat: no-repeat;
     background-size: 24px;
   }
   a.logo {
-    background-image: url(/assets/images/logocircle.svg);
+    background-image: url(../images/logocircle.svg);
     background-position: 12px 7px;
     background-repeat: no-repeat;
     background-size: 24px;
   }
    a.bluesky {
-    background-image: url(/assets/images/icon-bluesky.svg);
+    background-image: url(../images/icon-bluesky.svg);
     background-position: 12px 7px;
     background-repeat: no-repeat;
     background-size: 24px;
   }
 
   a.youtube {
-    background-image: url(/assets/images/icon-youtube.svg);
+    background-image: url(../images/icon-youtube.svg);
     background-position: 12px 7px;
     background-repeat: no-repeat;
     background-size: 24px;
@@ -107,34 +206,79 @@
   }
 }
 
-#video-container {
-  display: block; // remove this line to show video!
-  background: #e7e7e7;
-  padding: 60px 0;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100vw;
-  clear: both;
-}
 
 .video {
-  margin: 0 auto;
-  max-width: 800px;
+  max-height: 230px;
+  max-width: 400px;
   iframe {
-    height: 225px;
-    margin: 0 5%;
-    width: 90%;
-  }
-  @media (min-width : 600px){
-    iframe {
-      height: 450px;
+    max-height: 230px;
+    max-width: 400px;
     }
   }
-  @media (min-width : 820px){
-    iframe {
-      margin: 0;
-      width: 100%;
-    }
+
+
+.section-1 .video, .section-2 .video {
+  p {
+    font-size: 0.9rem;
+    margin: 0 0 0 0.5rem;
   }
+}
+
+.section-1 .video {
+  p {
+    color: white;
+  }
+  p a {
+    color: $white;
+  }
+}
+
+  .home-promo {
+    display: flex;
+    justify-content: space-between;
+    //align-items: center;
+    gap: 5rem;
+
+  }
+
+  @media (max-width: 600px) {
+  .home-promo {
+    flex-direction: column;
+  }
+}
+  
+  .promo-1 {
+
+  }
+
+  .promo-block {
+
+  }
+  
+  
+  .image-section {
+    
+  }
+
+  .text-section {
+    
+  }
+
+
+  .page--welcome-to-pelagios-network footer {
+    margin-top: 0
+  }
+
+  .home-intro h1 {
+    font-size: 1.8rem;
+  }
+
+  .home-intro h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+.image-section img {
+  max-width: 380px;
+  
 }

@@ -2,27 +2,10 @@
 # this ensures Jekyll reads the file to be transformed into CSS later
 # only Main files contain this front matter, not partials.
 ---
-@import "colors";
-@import "typography";
-@import "cta";
-@import "case-study";
-@import "header";
-@import "footer";
-@import "page";
-@import "listing";
-@import "home";
-@import "partners";
-@import "events";
-@import "button";
-body {
-  margin: 0;
-  overflow-x:hidden;
-}
 
-.constrained {
-  width: 90%;
-  max-width: $content-max-width;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-}
+@import "base";
+@import "layout";
+@import "pages";
+@import "home";
+
+

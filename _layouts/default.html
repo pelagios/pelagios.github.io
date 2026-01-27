@@ -5,19 +5,42 @@
 			{% assign pageclasstype = page.collection %}
 			{% seo %}
 			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+			<link rel="stylesheet" type="text/css" href="{{ '/assets/css/main.css' | relative_url }}">
 			{% if site.google_analytics and jekyll.environment == 'production' %}
 			{% include analytics.html %}
 			{% endif %}
 
 		</head>
-		<body class="page--{{ pageclass }} page--type-{{ pageclasstype }}" >
+		<body class="page--{{ pageclass }} page--type-{{ pageclasstype }}{% if page.body_class %} {{ page.body_class }}{% endif %}">
 			<header>
 				<div class="constrained">
-				<a href="/">
-					<img src="/assets/images/pelagioslogo.svg" class="logo" title="Pelagios Logo" alt="Pelagios Logo" width="150px" />
-				</a>
-			</div>
+					<div class="site-header">
+
+						<a href="{{ '/' | relative_url }}">
+							<img src="{{ site.baseurl | prepend: site.url }}/assets/images/pelagioslogo.svg" class="logo" title="Pelagios Logo" alt="Pelagios Logo" width="150">
+						</a>
+				
+
+						<nav class="menu" aria-label="Main">
+							<ol>
+								<li class="menu-item"><a href="{{ '/about-us' | relative_url }}">About us</a></li>
+								<li class="menu-item"><a href="{{ '/about-us/working-groups' | relative_url }}">Working Groups</a></li>
+								<li class="menu-item">
+									<a href="{{ '/linked-open-data.html' | relative_url }}">Linked Open Data</a>
+									<ol class="sub-menu">
+										<li class="menu-item"><a href="{{ '/lod/tools-resources' | relative_url }}">Tools and resources</a></li>
+										<li class="menu-item"><a href="{{ '/lod/methods' | relative_url }}">Methods & Standards</a></li>
+										<li class="menu-item"><a href="{{ '/lod/case-studies' | relative_url }}">Case studies</a></li>
+									</ol>
+								</li>
+								<li class="menu-item"><a href="{{ '/contact-us/' | relative_url }}">Contact</a></li>
+							</ol>
+						</nav>
+					</div>
+
+				</div>
+
+				
 			</header>
 			<div class="container constrained">
 
@@ -25,27 +48,41 @@
 
 			</div><!-- /.container -->
 			<footer>
-				<div class="constrained">
-					<div class="footer-block footer-1">
-						<div class="cta--home">
-							  <a class="cta groups" href="https://groups.google.com/d/forum/pelagios-network" >Join the discussion</a>
-							  <a class="cta github" href="https://github.com/britishlibrary/peripleo" >Discover Peripleo</a>
-							  <a class="cta recogito" href="https://recogitostudio.org/" >Discover Recogito</a>
-							  <a class="cta github" href="https://github.com/pelagios" >Find us on Github</a>
-						</div>
+				<div class="footer-first">
+					<div class="constrained">
+						<p>Get in touch with Pelagios <a href="mailto:officers@pelagios.org">Email us</a></p>
 					</div>
-						<div class="footer-block footer-3">
-						<div class="cta--home">
-							  <a class="cta bluesky" href="https://web-cdn.bsky.app/profile/did:plc:562fvmt6xxiypdvz36hjqdpw">Blue Sky</a>
-							  <a class="cta youtube" href="https://www.youtube.com/channel/UC6-o6U7HgpFKYhghO_ObrXg">YouTube</a>
-						</div>
-					</div>
-					<div class="footer-block footer-3>
-						<p>The Pelagios Network is an association of equal and independent Partners and a wider community of Members.</p>
-						<a class="link-contact" href="/contact-us">Contact Us</a>
-						<a class="link-cookie" href="/cookie-statement">Cookie Policy</a>
-					</div>
+				</div>
 				
+				<div class="footer-second">
+
+					<div class="constrained">
+						<div class="footer-block footer-1">
+							<p>The Pelagios Network is an association of equal and independent Partners and a wider community of Members.</p>
+							<a class="link-cookie" href="/cookie-statement">Cookie Policy</a>
+						</div>
+						
+						<div class="footer-block footer-2">
+							<p>Menu</p>
+								<ul>
+									<li class="footer-menu-item"><a href="{{ '/about-us' | relative_url }}">About us</a></li>
+									<li class="footer-menu-item"><a href="{{ '/about-us/working-groups' | relative_url }}">Working Groups</a></li>
+									<li class="footer-menu-item"><a href="{{ '/linked-open-data.html' | relative_url }}">Linked Open Data</a></li>
+									<li class="footer-menu-item"><a href="{{ '/contact-us/' | relative_url }}">Contact</a></li>
+								</ul>
+						</div>
+
+						
+						<div class="footer-block footer-3">
+							<p>Join us on social media</p>
+							<ul>
+								<li></li><a class="groups" href="https://groups.google.com/d/forum/pelagios-network" >Mailing list (Google group)</a></li>
+								<li class="footer-menu-item"><a class="bluesky" href="https://web-cdn.bsky.app/profile/did:plc:562fvmt6xxiypdvz36hjqdpw">Blue Sky</a></li>
+								<li></li><a class="youtube" href="https://www.youtube.com/channel/UC6-o6U7HgpFKYhghO_ObrXg">YouTube</a></li>
+							</ul>
+						</div>
+					
+					</div>
 				</div>
 			</footer>
 		</body>
